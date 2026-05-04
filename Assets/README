@@ -1,0 +1,499 @@
+# OPRMT™ Brand Assets
+
+**Repository:** OPRMT™ Framework Repository  
+**Owner:** Michael W. Fleming  
+**Folder:** `assets/brand/`  
+**Document Type:** Folder README / Brand Asset Index  
+**Version:** v1.0.0  
+**Status:** Draft for Repository Use  
+**Last Updated:** 2026-05-02  
+
+---
+
+## 1. Purpose
+
+The `assets/brand/` folder contains brand system documentation and supporting visual guidance for the OPRMT™ Framework Repository.
+
+This folder exists to keep OPRMT™ brand presentation consistent across GitHub documentation, PDFs, websites, Payhip pages, product images, diagrams, slide decks, certification materials, and public-facing framework assets.
+
+The brand folder should not be treated as a random image dump. It should operate as a controlled brand system directory.
+
+---
+
+## 2. Folder Scope
+
+This folder may include:
+
+- Brand color documentation
+- Typography guidance
+- Brand usage rules
+- Logo usage documentation
+- Approved logo files
+- SVG marks
+- Diagram style references
+- Badge templates
+- Product mockup guidance
+- Presentation style references
+- Visual asset inventory
+- Brand export notes
+
+---
+
+## 3. Current Folder Contents
+
+| File | Purpose |
+|---|---|
+| `README.md` | Folder overview, file map, and brand asset governance |
+| `BRAND_COLORS.md` | Approved OPRMT™ color palette and usage guidance |
+| `TYPOGRAPHY.md` | Approved typography rules and font hierarchy |
+| `USAGE_GUIDELINES.md` | Brand naming, attribution, visual usage, and commercial-use guidance |
+
+---
+
+## 4. Recommended Future Folder Structure
+
+Recommended structure for this folder:
+
+```text
+assets/
+└── brand/
+    ├── README.md
+    ├── BRAND_COLORS.md
+    ├── TYPOGRAPHY.md
+    ├── USAGE_GUIDELINES.md
+    ├── LOGO_USAGE.md
+    ├── BRAND_ASSET_INVENTORY.md
+    │
+    ├── logo/
+    │   ├── OPRMT-Logo-Primary.svg
+    │   ├── OPRMT-Logo-White.svg
+    │   ├── OPRMT-Logo-Dark.svg
+    │   ├── OPRMT-Logo-Mark.svg
+    │   └── README.md
+    │
+    ├── badges/
+    │   ├── OPRMT-Framework-Badge.svg
+    │   ├── OPRMT-PCE-Badge.svg
+    │   ├── OPRMT-DOAS-Badge.svg
+    │   └── README.md
+    │
+    ├── diagrams/
+    │   ├── OPRMT-Framework-Flow.svg
+    │   ├── OPRMT-PCE-Validation-Flow.svg
+    │   ├── OPRMT-DOAS-Scoring-Flow.svg
+    │   └── README.md
+    │
+    ├── pdf/
+    │   ├── OPRMT-PDF-Cover-Template.png
+    │   ├── OPRMT-PDF-Header-Template.png
+    │   └── README.md
+    │
+    ├── slides/
+    │   ├── OPRMT-Slide-Cover-Template.png
+    │   ├── OPRMT-Slide-Section-Divider.png
+    │   └── README.md
+    │
+    └── product-images/
+        ├── OPRMT-Product-Mockup-Template.png
+        ├── OPRMT-Prompt-Library-Mockup.png
+        └── README.md
+```
+
+---
+
+## 5. Brand System Summary
+
+The OPRMT™ visual system should communicate:
+
+```text
+structured
+technical
+professional
+governed
+precise
+credible
+framework-oriented
+implementation-ready
+```
+
+The preferred brand identity uses:
+
+```text
+Dark navy
+Deep blue
+Framework gold
+White
+Neutral grays
+Clean sans-serif typography
+Monospace formatting for prompts and code
+Structured spacing
+High contrast
+Minimal visual noise
+```
+
+---
+
+## 6. Primary Color Reference
+
+Use the full guide in:
+
+```text
+assets/brand/BRAND_COLORS.md
+```
+
+Primary palette:
+
+| Role | Color | Hex |
+|---|---|---:|
+| Primary Background | OPRMT Navy | `#071A2F` |
+| Secondary Background | Deep System Blue | `#0B2545` |
+| Accent | Framework Gold | `#D6A84F` |
+| Primary Light Text | Clean White | `#FFFFFF` |
+| Light Background | Soft White | `#F7F9FC` |
+| Body Text | Slate Gray | `#334155` |
+| Muted Text | Muted Gray | `#64748B` |
+| Borders | Border Gray | `#CBD5E1` |
+
+---
+
+## 7. Typography Reference
+
+Use the full guide in:
+
+```text
+assets/brand/TYPOGRAPHY.md
+```
+
+Recommended sans-serif font stack:
+
+```css
+font-family: Inter, Aptos, "Source Sans 3", "Helvetica Neue", Arial, sans-serif;
+```
+
+Recommended monospace font stack:
+
+```css
+font-family: "JetBrains Mono", "IBM Plex Mono", "Source Code Pro", SFMono-Regular, Consolas, "Courier New", monospace;
+```
+
+Use monospace fonts for:
+
+- Prompt templates
+- Variables
+- Repository paths
+- Code blocks
+- YAML
+- JSON
+- CLI commands
+- File trees
+
+---
+
+## 8. Brand Usage Reference
+
+Use the full guide in:
+
+```text
+assets/brand/USAGE_GUIDELINES.md
+```
+
+Correct naming:
+
+```text
+OPRMT™
+OPRMT™ Framework
+The OPRMT™ Framework
+OPRMT™ structured prompt framework
+```
+
+Correct framework sequence:
+
+```text
+O — Objective
+P — Parameters
+R — Results
+M — Method
+T — Tools
+```
+
+Attribution:
+
+```text
+OPRMT™ Framework created by Michael W. Fleming.
+```
+
+---
+
+## 9. File Naming Rules
+
+Brand files should use clear, readable names.
+
+Preferred examples:
+
+```text
+OPRMT-Logo-Primary.svg
+OPRMT-Logo-White.svg
+OPRMT-Framework-Flow.svg
+OPRMT-PCE-Validation-Flow.svg
+OPRMT-DOAS-Scoring-Flow.svg
+OPRMT-PDF-Cover-Template.png
+OPRMT-Slide-Cover-Template.png
+```
+
+Avoid:
+
+```text
+logo-final.png
+new-logo.png
+image1.png
+copy-of-logo.svg
+final-final-logo.png
+random-brand-thing.png
+```
+
+---
+
+## 10. Asset Format Guidance
+
+Recommended formats:
+
+| Asset Type | Preferred Format | Notes |
+|---|---|---|
+| Logos | SVG | Use vector format where possible |
+| Icons | SVG | Keep scalable and editable |
+| Diagrams | SVG or PNG | SVG preferred for documentation |
+| PDF covers | PNG or SVG | Use high-resolution exports |
+| Slide graphics | PNG or SVG | Keep text readable |
+| Product mockups | PNG | Use transparent background where appropriate |
+| Editable design files | Canva, Figma, or source file | Store externally or document location if not stored in repo |
+
+Avoid storing unnecessarily large files in the repository unless required.
+
+---
+
+## 11. Logo Asset Rules
+
+When official logo files are added:
+
+- Preserve original proportions.
+- Do not stretch or distort.
+- Do not recolor outside approved palette.
+- Do not place on low-contrast backgrounds.
+- Do not remove ownership or trademark references.
+- Do not use the logo to imply official authorization without permission.
+- Do not combine with third-party marks in a way that implies partnership.
+
+Recommended future file:
+
+```text
+assets/brand/LOGO_USAGE.md
+```
+
+---
+
+## 12. Diagram Asset Rules
+
+Diagrams should use the OPRMT™ visual system.
+
+Recommended diagram style:
+
+```text
+Background: White or Soft White
+Primary nodes: OPRMT Navy
+Secondary nodes: Deep System Blue
+Accent lines: Framework Gold
+Body text: Slate Gray
+Labels: Clean, short, technical
+Layout: Structured, grid-based
+```
+
+Avoid:
+
+- Overloaded diagrams
+- Excessive colors
+- Cartoon graphics
+- Unlabeled arrows
+- Decorative icons that reduce clarity
+- Low-contrast labels
+
+---
+
+## 13. Badge Asset Rules
+
+Badges should be used for repository documentation, specification markers, and visual categorization.
+
+Potential badge categories:
+
+```text
+OPRMT™ Framework
+PCE
+DOAS™
+Specification
+Draft
+Approved
+Deprecated
+Prompt Template
+Prompt Cluster
+Certification Support
+Repository Governance
+```
+
+Badges must not imply certification, accreditation, legal recognition, or official approval unless specifically authorized.
+
+---
+
+## 14. Product Image Rules
+
+Product images should maintain a professional technical style.
+
+Recommended product image traits:
+
+- Dark navy and white foundation
+- Gold accent lines or labels
+- Clean mockups
+- Structured dashboard visuals
+- Prompt interface previews
+- High contrast
+- Corporate SaaS tone
+- No cluttered backgrounds
+- No exaggerated income claims
+- No unsupported guarantee language
+
+Product mockups should not imply official certification, legal recognition, or guaranteed results unless verified and approved.
+
+---
+
+## 15. PDF and Slide Asset Rules
+
+PDF and slide templates should follow the approved color and typography system.
+
+Recommended PDF structure:
+
+```text
+Cover
+Document metadata
+Purpose
+Main sections
+Tables and structured blocks
+Implementation notes
+Ownership notice
+Footer
+```
+
+Recommended slide structure:
+
+```text
+Cover slide
+Section divider
+Framework explanation
+Component breakdown
+Example
+Review checklist
+Ownership notice
+```
+
+---
+
+## 16. Contribution Rules for Brand Assets
+
+Before adding brand assets:
+
+- Confirm the asset belongs in `assets/brand/`.
+- Use approved naming conventions.
+- Use approved colors.
+- Use approved typography.
+- Add a README if creating a new subfolder.
+- Avoid unsupported claims.
+- Preserve ownership notices.
+- Use vector formats where practical.
+- Optimize file size where possible.
+- Submit changes through pull request review.
+- Update `BRAND_ASSET_INVENTORY.md` if that file exists.
+
+---
+
+## 17. Review Checklist
+
+Use this checklist before approving brand assets.
+
+- [ ] File name is clear and repository-appropriate.
+- [ ] Asset uses approved brand colors.
+- [ ] Asset uses approved typography.
+- [ ] Text is readable.
+- [ ] Asset does not distort the logo.
+- [ ] Asset does not imply unauthorized certification or endorsement.
+- [ ] Asset does not contain unsupported claims.
+- [ ] Asset includes or preserves ownership context where applicable.
+- [ ] Asset format is appropriate.
+- [ ] Asset size is reasonable.
+- [ ] Related README or inventory file is updated.
+
+---
+
+## 18. Commercial Use Warning
+
+Repository visibility does not automatically grant commercial-use rights.
+
+Before using OPRMT™ brand assets commercially, review:
+
+```text
+LICENSE.md
+NOTICE.md
+legal/COMMERCIAL_USE_GUIDANCE.md
+legal/USAGE_POLICY.md
+legal/COMMERCIAL_USE_POLICY.md
+```
+
+Commercial use may require written permission.
+
+Restricted commercial uses may include:
+
+- Selling OPRMT™ branded products
+- Using OPRMT™ marks in client deliverables
+- Creating paid OPRMT™ courses
+- Claiming official certification authority
+- Using OPRMT™ brand assets in commercial software
+- White-labeling OPRMT™ materials
+- Removing ownership notices
+
+---
+
+## 19. Related Repository Files
+
+```text
+README.md
+docs/OVERVIEW.md
+docs/GLOSSARY.md
+docs/IMPLEMENTATION.md
+assets/brand/BRAND_COLORS.md
+assets/brand/TYPOGRAPHY.md
+assets/brand/USAGE_GUIDELINES.md
+legal/COMMERCIAL_USE_GUIDANCE.md
+.github/PULL_REQUEST_TEMPLATE.md
+```
+
+---
+
+## 20. Maintenance Notes
+
+Update this README when:
+
+- A new brand file is added.
+- A brand subfolder is created.
+- A logo file is added or replaced.
+- A diagram system is added.
+- A badge system is added.
+- A product image template is added.
+- Brand color rules change.
+- Typography rules change.
+- Commercial-use rules change.
+- A brand asset is deprecated.
+
+---
+
+## 21. Ownership Notice
+
+OPRMT™ and related framework materials are owned by Michael W. Fleming unless otherwise stated in the repository license, notice, or usage policy.
+
+This brand assets folder supports visual consistency, documentation quality, public credibility, attribution discipline, and long-term protection of the official OPRMT™ Framework.
+
