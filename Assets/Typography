@@ -1,0 +1,415 @@
+# Typography
+
+**Repository:** OPRMT™ Framework Repository  
+**Owner:** Michael W. Fleming  
+**Document Type:** Brand System Reference  
+**Version:** v1.0.0  
+**Status:** Draft for Repository Use  
+**Recommended Path:** `assets/brand/TYPOGRAPHY.md`  
+**Last Updated:** 2026-05-02  
+
+---
+
+## 1. Purpose
+
+This document defines the recommended typography system for OPRMT™ documentation, PDFs, websites, slides, product assets, diagrams, prompt manuals, and repository-adjacent materials.
+
+The purpose of this guide is to keep OPRMT™ materials professional, readable, consistent, and suitable for a technical framework brand.
+
+---
+
+## 2. Typography Principle
+
+OPRMT™ typography should communicate:
+
+```text
+precision
+structure
+authority
+technical clarity
+professional documentation
+enterprise readiness
+```
+
+Typography should be clean, readable, and restrained. Avoid decorative, playful, or novelty fonts in official framework materials.
+
+---
+
+## 3. Recommended Font Families
+
+### 3.1 Primary Sans-Serif
+
+Recommended use:
+
+- Headings
+- Website text
+- PDF body text
+- Slides
+- Product materials
+- Documentation covers
+
+Recommended fonts:
+
+```text
+Inter
+Aptos
+Source Sans 3
+IBM Plex Sans
+Helvetica Neue
+Arial
+```
+
+Preferred hierarchy:
+
+| Priority | Font |
+|---:|---|
+| 1 | Inter |
+| 2 | Aptos |
+| 3 | Source Sans 3 |
+| 4 | IBM Plex Sans |
+| 5 | Helvetica Neue |
+| 6 | Arial |
+
+---
+
+### 3.2 Monospace Font
+
+Recommended use:
+
+- Code blocks
+- Prompt examples
+- YAML
+- JSON
+- CLI commands
+- File trees
+- Repository paths
+- Variables
+
+Recommended fonts:
+
+```text
+JetBrains Mono
+IBM Plex Mono
+Source Code Pro
+SFMono-Regular
+Consolas
+Courier New
+```
+
+Preferred hierarchy:
+
+| Priority | Font |
+|---:|---|
+| 1 | JetBrains Mono |
+| 2 | IBM Plex Mono |
+| 3 | Source Code Pro |
+| 4 | SFMono-Regular |
+| 5 | Consolas |
+| 6 | Courier New |
+
+---
+
+### 3.3 Optional Serif Font
+
+Serif fonts may be used sparingly for formal report covers, whitepapers, or executive documents.
+
+Recommended fonts:
+
+```text
+Merriweather
+Georgia
+Libre Baskerville
+```
+
+Use serif fonts only when they support formal document tone. Do not use serif fonts for prompt templates, code examples, or technical file documentation.
+
+---
+
+## 4. Standard Typography Stack
+
+Recommended CSS font stack:
+
+```css
+font-family: Inter, Aptos, "Source Sans 3", "Helvetica Neue", Arial, sans-serif;
+```
+
+Recommended monospace stack:
+
+```css
+font-family: "JetBrains Mono", "IBM Plex Mono", "Source Code Pro", SFMono-Regular, Consolas, "Courier New", monospace;
+```
+
+---
+
+## 5. Heading Hierarchy
+
+Use clear heading hierarchy across Markdown, PDFs, websites, and slides.
+
+| Level | Markdown | Recommended Use |
+|---|---|---|
+| H1 | `#` | Document title only |
+| H2 | `##` | Major sections |
+| H3 | `###` | Subsections |
+| H4 | `####` | Detailed subpoints |
+| H5 | `#####` | Rarely used |
+| H6 | `######` | Avoid unless required |
+
+Do not skip heading levels without reason.
+
+---
+
+## 6. Recommended Size System
+
+For web and PDF-derived materials:
+
+| Element | Recommended Size |
+|---|---:|
+| Cover title | 36–48 px |
+| Page title | 30–40 px |
+| H1 | 30–36 px |
+| H2 | 24–28 px |
+| H3 | 20–22 px |
+| H4 | 16–18 px |
+| Body text | 15–17 px |
+| Caption text | 12–14 px |
+| Metadata | 11–13 px |
+| Code text | 13–15 px |
+
+For GitHub Markdown, use Markdown headings instead of manual font sizing.
+
+---
+
+## 7. Font Weight System
+
+| Use | Recommended Weight |
+|---|---:|
+| Primary title | 700–800 |
+| Section heading | 650–750 |
+| Subheading | 600–700 |
+| Body text | 400–500 |
+| Caption | 400 |
+| Metadata | 400–500 |
+| Button text | 600–700 |
+| Table header | 600–700 |
+| Code text | 400–500 |
+
+Avoid excessive bolding. Bold should indicate structure, emphasis, labels, or key terms.
+
+---
+
+## 8. Line Height
+
+Recommended line heights:
+
+| Text Type | Line Height |
+|---|---:|
+| Headings | 1.15–1.25 |
+| Body text | 1.45–1.65 |
+| Tables | 1.3–1.5 |
+| Captions | 1.3–1.45 |
+| Code blocks | 1.4–1.6 |
+
+Long-form documentation should prioritize readability over dense layout.
+
+---
+
+## 9. Markdown Typography Rules
+
+For repository Markdown:
+
+- Use one H1 per file.
+- Use H2 for major sections.
+- Use H3 for subsections.
+- Use tables for structured comparisons.
+- Use fenced code blocks for code, file trees, YAML, and prompt templates.
+- Use bold text for labels or important terms.
+- Avoid excessive italic formatting.
+- Avoid decorative HTML unless necessary.
+- Avoid emoji in official documentation unless explicitly approved.
+
+---
+
+## 10. Prompt Typography
+
+Prompt templates should be visually scannable.
+
+Recommended structure:
+
+```text
+Objective:
+{{OBJECTIVE}}
+
+Parameters:
+- Audience: {{TARGET_AUDIENCE}}
+- Context: {{CONTEXT}}
+- Constraints: {{CONSTRAINTS}}
+
+Results:
+{{EXPECTED_OUTPUT}}
+
+Method:
+1. {{STEP_ONE}}
+2. {{STEP_TWO}}
+3. {{STEP_THREE}}
+
+Tools:
+- {{TOOL_ONE}}
+- {{TOOL_TWO}}
+```
+
+Use monospace formatting for prompt examples, variables, file paths, and structured input blocks.
+
+---
+
+## 11. Variable Formatting
+
+Use double curly braces for variables:
+
+```text
+{{TARGET_AUDIENCE}}
+{{OUTPUT_FORMAT}}
+{{INDUSTRY}}
+{{CONSTRAINTS}}
+{{TOOLS_ALLOWED}}
+```
+
+Use uppercase snake case for variable names.
+
+Preferred:
+
+```text
+{{BUSINESS_IDEA}}
+{{TARGET_AUDIENCE}}
+{{DELIVERABLE_FORMAT}}
+```
+
+Avoid:
+
+```text
+{{business idea}}
+{{TargetAudience}}
+{{thing}}
+```
+
+---
+
+## 12. Repository Path Formatting
+
+Use inline code formatting for paths:
+
+```md
+`docs/OVERVIEW.md`
+`assets/brand/BRAND_COLORS.md`
+`.github/workflows/release.yml`
+```
+
+Use fenced code blocks for file trees:
+
+```text
+docs/
+├── INDEX.md
+├── OVERVIEW.md
+├── GETTING_STARTED.md
+├── FAQ.md
+└── GLOSSARY.md
+```
+
+---
+
+## 13. PDF Typography Guidance
+
+For polished PDFs:
+
+| Element | Recommendation |
+|---|---|
+| Title | Large, bold, navy or white depending on background |
+| Section heading | Navy, bold |
+| Body text | Slate or charcoal |
+| Callouts | Navy border or gold accent |
+| Code blocks | Monospace, light background |
+| Tables | Dark header with white text or light professional grid |
+| Footer | Small, muted gray |
+
+Avoid:
+
+- Overly decorative fonts
+- Low-contrast gray body text
+- Excessive all-caps paragraphs
+- Dense pages without spacing
+- Multiple unrelated font families
+
+---
+
+## 14. Presentation Typography Guidance
+
+For slides:
+
+| Element | Recommendation |
+|---|---|
+| Title slide headline | 40–52 px |
+| Section divider title | 34–44 px |
+| Slide title | 28–36 px |
+| Body bullets | 18–24 px |
+| Caption | 12–16 px |
+| Code/prompt example | 14–18 px monospace |
+
+Use fewer words per slide and keep prompts or technical examples in boxed sections.
+
+---
+
+## 15. Website Typography Guidance
+
+Recommended web typography:
+
+```css
+body {
+  font-family: Inter, Aptos, "Source Sans 3", "Helvetica Neue", Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+code,
+pre {
+  font-family: "JetBrains Mono", "IBM Plex Mono", "Source Code Pro", SFMono-Regular, Consolas, monospace;
+}
+```
+
+Use strong heading hierarchy and avoid making all text the same size.
+
+---
+
+## 16. Typography Restrictions
+
+Do not use the following for official OPRMT™ materials:
+
+- Comic Sans
+- Papyrus
+- Brush Script
+- Casual handwritten fonts
+- Graffiti-style fonts
+- Novelty fonts
+- Decorative medieval fonts
+- Overly futuristic fonts that reduce readability
+
+Official materials should prioritize clarity over style.
+
+---
+
+## 17. Related Files
+
+```text
+assets/brand/BRAND_COLORS.md
+assets/brand/USAGE_GUIDELINES.md
+assets/brand/LOGO_USAGE.md
+docs/OVERVIEW.md
+docs/IMPLEMENTATION.md
+```
+
+---
+
+## 18. Ownership Notice
+
+OPRMT™ and related framework materials are owned by Michael W. Fleming unless otherwise stated in the repository license, notice, or usage policy.
+
+This typography guide supports brand consistency, documentation readability, professional presentation, and long-term protection of the official OPRMT™ Framework.
+
