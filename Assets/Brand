@@ -1,1 +1,311 @@
+# Brand Colors
+
+**Repository:** OPRMT™ Framework Repository  
+**Owner:** Michael W. Fleming  
+**Document Type:** Brand System Reference  
+**Version:** v1.0.0  
+**Status:** Draft for Repository Use  
+**Recommended Path:** `assets/brand/BRAND_COLORS.md`  
+**Last Updated:** 2026-05-02  
+
+---
+
+## 1. Purpose
+
+This document defines the recommended color system for OPRMT™ repository documentation, brand assets, diagrams, product materials, website blocks, presentation decks, PDF files, and related visual systems.
+
+The purpose of this file is to keep OPRMT™ visuals consistent, professional, readable, and suitable for public-facing framework documentation.
+
+---
+
+## 2. Brand Color Principle
+
+The OPRMT™ brand should communicate:
+
+```text
+structured
+technical
+trustworthy
+professional
+controlled
+modern
+framework-oriented
+```
+
+The default visual direction should use dark navy, white, gold, and neutral grays. Accent colors may be used sparingly for calls to action, highlights, status labels, diagrams, and interface elements.
+
+---
+
+## 3. Primary Color Palette
+
+| Color Name | Hex | Recommended Use |
+|---|---:|---|
+| OPRMT Navy | `#071A2F` | Primary background, headers, footers, hero sections |
+| Deep System Blue | `#0B2545` | Secondary background, cards, documentation banners |
+| Framework Gold | `#D6A84F` | Accent color, highlights, borders, badges, key terms |
+| Clean White | `#FFFFFF` | Main text on dark backgrounds, page background |
+| Soft White | `#F7F9FC` | Light section backgrounds, cards, code area background |
+| Slate Gray | `#334155` | Body text on light backgrounds |
+| Muted Gray | `#64748B` | Secondary text, captions, metadata |
+| Border Gray | `#CBD5E1` | Borders, dividers, table lines |
+
+---
+
+## 4. Primary Brand Colors
+
+### 4.1 OPRMT Navy
+
+```text
+Hex: #071A2F
+```
+
+Recommended for:
+
+- Main website sections
+- PDF covers
+- Documentation headers
+- GitHub visual assets
+- Presentation title slides
+- Footer backgrounds
+- Authority strips
+
+Usage note:
+
+Use white or soft white text on OPRMT Navy for accessibility and contrast.
+
+---
+
+### 4.2 Deep System Blue
+
+```text
+Hex: #0B2545
+```
+
+Recommended for:
+
+- Secondary dark sections
+- Card backgrounds
+- Diagram panels
+- Code-related visual blocks
+- Technical callout sections
+
+Usage note:
+
+This color should support the primary navy, not replace it as the main brand anchor.
+
+---
+
+### 4.3 Framework Gold
+
+```text
+Hex: #D6A84F
+```
+
+Recommended for:
+
+- Accent borders
+- Section dividers
+- Buttons
+- Badges
+- Highlight text
+- Icons
+- Certification accents
+- Premium product indicators
+
+Usage note:
+
+Use gold as an accent only. Do not use it as a large background unless contrast is verified.
+
+---
+
+## 5. Neutral Color Palette
+
+| Color Name | Hex | Recommended Use |
+|---|---:|---|
+| White | `#FFFFFF` | Main page background, text on dark backgrounds |
+| Soft White | `#F7F9FC` | Secondary light background |
+| Light Gray | `#E2E8F0` | Border, divider, card outline |
+| Mid Gray | `#94A3B8` | Metadata, disabled text |
+| Slate Gray | `#334155` | Primary body text |
+| Charcoal | `#111827` | Strong text on light background |
+
+---
+
+## 6. Status and Interface Colors
+
+Use status colors carefully in documentation, dashboards, scorecards, and workflow files.
+
+| Status | Hex | Use |
+|---|---:|---|
+| Success Green | `#16A34A` | Approved, passed, valid |
+| Warning Amber | `#F59E0B` | Needs review, caution, incomplete |
+| Error Red | `#DC2626` | Failed, blocked, critical issue |
+| Info Blue | `#2563EB` | Notes, references, informational callouts |
+| Review Purple | `#7C3AED` | Review, draft, governance check |
+
+Status colors should not replace the core OPRMT™ color system.
+
+---
+
+## 7. Recommended Color Roles
+
+| Role | Color |
+|---|---|
+| Primary background | `#071A2F` |
+| Secondary background | `#0B2545` |
+| Primary accent | `#D6A84F` |
+| Light background | `#F7F9FC` |
+| Primary light-mode text | `#111827` |
+| Secondary light-mode text | `#334155` |
+| Muted text | `#64748B` |
+| Border | `#CBD5E1` |
+| Success | `#16A34A` |
+| Warning | `#F59E0B` |
+| Error | `#DC2626` |
+
+---
+
+## 8. Accessibility Guidance
+
+When creating public-facing materials:
+
+- Use high contrast between text and background.
+- Use white or soft white text on navy backgrounds.
+- Avoid gold text on white backgrounds unless the font is large and contrast is verified.
+- Avoid red/green-only status communication; include labels.
+- Do not rely on color alone to communicate meaning.
+- Check buttons and links for readability on mobile devices.
+- Keep body text on light backgrounds dark enough for long reading.
+
+Recommended combinations:
+
+| Background | Text |
+|---|---|
+| `#071A2F` | `#FFFFFF` |
+| `#0B2545` | `#F7F9FC` |
+| `#FFFFFF` | `#111827` |
+| `#F7F9FC` | `#334155` |
+| `#D6A84F` | `#071A2F` |
+
+Avoid:
+
+| Background | Text |
+|---|---|
+| `#FFFFFF` | `#D6A84F` |
+| `#F7F9FC` | `#CBD5E1` |
+| `#071A2F` | `#334155` |
+| `#0B2545` | `#64748B` |
+
+---
+
+## 9. GitHub Documentation Usage
+
+Markdown files should remain simple and readable. Since GitHub Markdown does not support full visual styling by default, color usage is mostly relevant for:
+
+- Diagrams
+- Badges
+- Images
+- SVG assets
+- Documentation covers
+- PDF exports
+- Presentation exports
+- Website embeds
+- Product images
+
+Do not force excessive inline HTML styling into Markdown unless there is a clear need.
+
+---
+
+## 10. Website and Payhip Usage
+
+Recommended website color structure:
+
+```text
+Hero background: #071A2F
+Hero headline: #FFFFFF
+Hero subheadline: #E2E8F0
+Primary button: #D6A84F
+Primary button text: #071A2F
+Section background: #FFFFFF or #F7F9FC
+Body text: #334155
+Footer background: #071A2F
+Footer text: #FFFFFF
+```
+
+---
+
+## 11. PDF and Presentation Usage
+
+Recommended PDF and slide color structure:
+
+```text
+Cover background: #071A2F
+Cover title: #FFFFFF
+Cover accent line: #D6A84F
+Section title: #071A2F
+Body text: #334155
+Callout box border: #D6A84F
+Table header: #0B2545
+Table header text: #FFFFFF
+Footer text: #64748B
+```
+
+---
+
+## 12. Brand Color Restrictions
+
+Do not:
+
+- Use bright neon palettes as the primary OPRMT™ identity.
+- Use low-contrast gold text on white backgrounds.
+- Use too many accent colors in one asset.
+- Replace the primary navy/gold identity with unrelated colors.
+- Use playful, cartoon-style palettes for official framework materials.
+- Use colors that make OPRMT™ appear casual, unserious, or inconsistent.
+
+---
+
+## 13. Implementation Example
+
+Recommended CSS variables:
+
+```css
+:root {
+  --oprmt-navy: #071A2F;
+  --oprmt-blue: #0B2545;
+  --oprmt-gold: #D6A84F;
+  --oprmt-white: #FFFFFF;
+  --oprmt-soft-white: #F7F9FC;
+  --oprmt-charcoal: #111827;
+  --oprmt-slate: #334155;
+  --oprmt-muted: #64748B;
+  --oprmt-border: #CBD5E1;
+  --oprmt-success: #16A34A;
+  --oprmt-warning: #F59E0B;
+  --oprmt-error: #DC2626;
+  --oprmt-info: #2563EB;
+}
+```
+
+---
+
+## 14. Related Files
+
+```text
+assets/brand/TYPOGRAPHY.md
+assets/brand/USAGE_GUIDELINES.md
+assets/brand/LOGO_USAGE.md
+docs/OVERVIEW.md
+docs/IMPLEMENTATION.md
+legal/COMMERCIAL_USE_GUIDANCE.md
+```
+
+---
+
+## 15. Ownership Notice
+
+OPRMT™ and related framework materials are owned by Michael W. Fleming unless otherwise stated in the repository license, notice, or usage policy.
+
+This brand color guide supports visual consistency, documentation quality, public credibility, and long-term protection of the official OPRMT™ Framework.
+
 
