@@ -1,0 +1,455 @@
+# Brand Usage Guidelines
+
+**Repository:** OPRMT™ Framework Repository  
+**Owner:** Michael W. Fleming  
+**Document Type:** Brand Usage Guidelines  
+**Version:** v1.0.0  
+**Status:** Draft for Repository Use  
+**Recommended Path:** `assets/brand/USAGE_GUIDELINES.md`  
+**Last Updated:** 2026-05-02  
+
+---
+
+## 1. Purpose
+
+This document defines basic usage guidelines for OPRMT™ brand references, framework naming, visual presentation, attribution, repository documentation, and public-facing materials.
+
+The purpose of this guide is to preserve consistency, prevent misrepresentation, and protect the integrity of the OPRMT™ Framework.
+
+---
+
+## 2. Brand Identity
+
+OPRMT™ should be presented as a structured prompt engineering framework created by Michael W. Fleming.
+
+Correct positioning:
+
+```text
+OPRMT™ is a structured prompt engineering framework for designing clearer, repeatable, auditable AI instructions.
+```
+
+Do not present OPRMT™ as:
+
+- Public-domain content
+- A casual prompting trick
+- A guaranteed outcome system
+- A legally recognized certification authority unless verified
+- An accredited academic institution unless verified
+- A framework owned by another person or organization
+
+---
+
+## 3. Official Name Usage
+
+Preferred usage:
+
+```text
+OPRMT™
+OPRMT™ Framework
+The OPRMT™ Framework
+OPRMT™ structured prompt framework
+```
+
+Avoid:
+
+```text
+oprmt
+O.P.R.M.T.
+OPRMT Method Thing
+OPRMT Formula
+OPRMT AI Hack
+```
+
+Use the trademark symbol on first prominent use in a document or page where practical:
+
+```text
+OPRMT™
+```
+
+After first use, `OPRMT` may be used where formatting constraints require it, but official documents should prefer `OPRMT™`.
+
+---
+
+## 4. Component Naming
+
+Use the official component sequence:
+
+```text
+O — Objective
+P — Parameters
+R — Results
+M — Method
+T — Tools
+```
+
+Do not rename components without an approved standard change request.
+
+Avoid:
+
+```text
+O — Outcome
+P — Prompt
+R — Response
+M — Model
+T — Text
+```
+
+These alternatives conflict with the controlled OPRMT™ component structure.
+
+---
+
+## 5. Ownership Attribution
+
+Use clear attribution when referencing OPRMT™ publicly.
+
+Short attribution:
+
+```text
+OPRMT™ Framework created by Michael W. Fleming.
+```
+
+Extended attribution:
+
+```text
+This material references the OPRMT™ Framework, created by Michael W. Fleming. OPRMT™ and related framework materials remain the property of their owner unless otherwise stated in the repository license, notice, or usage policy.
+```
+
+Repository documents should preserve ownership notices unless a maintainer-approved replacement notice exists.
+
+---
+
+## 6. Visual Brand Use
+
+The preferred visual system uses:
+
+```text
+Dark navy
+Deep blue
+Gold accent
+White
+Neutral gray
+Clean technical typography
+Structured layouts
+```
+
+Recommended visual tone:
+
+- Professional
+- Technical
+- Controlled
+- Corporate
+- Documentation-ready
+- Framework-oriented
+- Minimal
+- High contrast
+
+Avoid visual styles that make OPRMT™ appear:
+
+- Cartoonish
+- Meme-based
+- Casual
+- Unstructured
+- Overly flashy
+- Low-trust
+- Illegible
+- Off-brand
+
+---
+
+## 7. Color Usage
+
+Use the approved color system from:
+
+```text
+assets/brand/BRAND_COLORS.md
+```
+
+Recommended primary colors:
+
+| Role | Hex |
+|---|---:|
+| OPRMT Navy | `#071A2F` |
+| Deep System Blue | `#0B2545` |
+| Framework Gold | `#D6A84F` |
+| Clean White | `#FFFFFF` |
+| Soft White | `#F7F9FC` |
+| Slate Gray | `#334155` |
+
+Do not replace the primary brand identity with unrelated palettes in official materials.
+
+---
+
+## 8. Typography Usage
+
+Use the typography system from:
+
+```text
+assets/brand/TYPOGRAPHY.md
+```
+
+Recommended font families:
+
+```text
+Inter
+Aptos
+Source Sans 3
+IBM Plex Sans
+Helvetica Neue
+Arial
+```
+
+Recommended monospace fonts:
+
+```text
+JetBrains Mono
+IBM Plex Mono
+Source Code Pro
+Consolas
+Courier New
+```
+
+Avoid decorative, handwritten, novelty, or low-readability fonts in official OPRMT™ materials.
+
+---
+
+## 9. Logo and Mark Usage
+
+If official logo files are added to the repository, they should be stored under:
+
+```text
+assets/brand/logo/
+```
+
+Recommended future files:
+
+```text
+assets/brand/logo/OPRMT-Logo-Primary.svg
+assets/brand/logo/OPRMT-Logo-White.svg
+assets/brand/logo/OPRMT-Logo-Mark.svg
+assets/brand/LOGO_USAGE.md
+```
+
+General logo rules:
+
+- Do not distort the logo.
+- Do not recolor the logo outside approved brand colors.
+- Do not place the logo on low-contrast backgrounds.
+- Do not use the logo to imply authorization without permission.
+- Do not remove ownership or attribution notices.
+- Do not combine the logo with third-party marks in a way that implies partnership without approval.
+
+---
+
+## 10. Documentation Usage
+
+Official repository documentation should:
+
+- Use clear Markdown structure.
+- Include ownership notice.
+- Include document type, version, status, and recommended path where appropriate.
+- Avoid unsupported claims.
+- Preserve official terminology.
+- Use file paths in code formatting.
+- Use tables for structured information.
+- Use code blocks for templates, prompts, file trees, and YAML.
+- Avoid excessive inline HTML unless needed.
+
+---
+
+## 11. Prompt Asset Usage
+
+Prompt assets should be structured using OPRMT™ where appropriate.
+
+A repository-ready prompt asset should include:
+
+```text
+Prompt ID:
+Prompt Name:
+Category:
+Version:
+Status:
+Objective:
+Parameters:
+Results:
+Method:
+Tools:
+Compliance Notes:
+Ownership Notice:
+```
+
+Do not submit prompt assets that:
+
+- Claim guaranteed outcomes
+- Claim legal compliance without review
+- Claim medical, financial, or legal authority
+- Include copied third-party proprietary content
+- Remove OPRMT™ ownership references
+- Misrepresent the framework or its owner
+
+---
+
+## 12. Commercial Use Guidance
+
+Commercial use is not automatically granted by repository visibility.
+
+Before using OPRMT™ materials commercially, review:
+
+```text
+LICENSE.md
+NOTICE.md
+legal/COMMERCIAL_USE_GUIDANCE.md
+legal/USAGE_POLICY.md
+legal/COMMERCIAL_USE_POLICY.md
+```
+
+Commercial uses that may require permission include:
+
+- Selling OPRMT™ prompt packs
+- Selling derivative training materials
+- Redistributing repository files in paid products
+- White-labeling OPRMT™ as another framework
+- Using OPRMT™ branding in paid client deliverables
+- Claiming official certification or instructor status
+
+---
+
+## 13. Certification and Authority Claims
+
+Do not claim:
+
+```text
+Official OPRMT™ Certified
+Authorized OPRMT™ Instructor
+OPRMT™ Accredited Program
+Certified by OPRMT™
+Official OPRMT™ Training Partner
+```
+
+unless explicitly approved in writing.
+
+Do not claim that OPRMT™ guarantees:
+
+- Employment
+- Income
+- Legal compliance
+- Business results
+- AI accuracy
+- Accreditation
+- Professional licensing
+- Universal success rates
+
+---
+
+## 14. Public Reference Rules
+
+When referencing OPRMT™ publicly:
+
+Do:
+
+- Use the correct name.
+- Attribute Michael W. Fleming.
+- Link to official materials when available.
+- Preserve the official OPRMT™ sequence.
+- Make clear when your work is independent.
+
+Do not:
+
+- Imply official approval without permission.
+- Remove ownership notices.
+- Rebrand the framework.
+- Sell copied materials without permission.
+- Claim certification authority without approval.
+
+---
+
+## 15. Repository Contribution Rules
+
+When contributing brand-related files:
+
+- Use approved colors.
+- Use approved typography.
+- Preserve ownership notices.
+- Follow repository naming conventions.
+- Add metadata to major files.
+- Update relevant indexes.
+- Submit changes through pull request review.
+- Link any controlled terminology change to a standard change request.
+
+---
+
+## 16. Approved Brand Voice
+
+OPRMT™ materials should use a voice that is:
+
+```text
+professional
+precise
+structured
+technical
+direct
+credible
+implementation-focused
+```
+
+Avoid brand voice that is:
+
+```text
+hype-heavy
+vague
+overpromising
+casual
+meme-driven
+legally overreaching
+unverifiable
+```
+
+---
+
+## 17. Examples
+
+### Correct
+
+```text
+The OPRMT™ Framework, created by Michael W. Fleming, structures AI prompts using Objective, Parameters, Results, Method, and Tools.
+```
+
+### Incorrect
+
+```text
+OPRMT is a guaranteed AI success hack anyone can rebrand and sell.
+```
+
+### Correct
+
+```text
+This guide references OPRMT™ for educational purposes and is not an official certification program.
+```
+
+### Incorrect
+
+```text
+This course makes you officially OPRMT certified with guaranteed professional recognition.
+```
+
+---
+
+## 18. Related Files
+
+```text
+assets/brand/BRAND_COLORS.md
+assets/brand/TYPOGRAPHY.md
+assets/brand/LOGO_USAGE.md
+docs/OVERVIEW.md
+docs/GLOSSARY.md
+legal/COMMERCIAL_USE_GUIDANCE.md
+.github/PULL_REQUEST_TEMPLATE.md
+```
+
+---
+
+## 19. Ownership Notice
+
+OPRMT™ and related framework materials are owned by Michael W. Fleming unless otherwise stated in the repository license, notice, or usage policy.
+
+These brand usage guidelines support consistent presentation, attribution discipline, commercial-use control, public trust, and long-term protection of the official OPRMT™ Framework.
+
