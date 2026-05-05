@@ -1,0 +1,297 @@
+# OPRMT™ Framework Overview
+
+**Repository:** OPRMT™ Framework Repository  
+**Owner:** Michael W. Fleming  
+**Document Type:** Framework Overview  
+**Version:** v1.0.0  
+**Status:** Draft for Repository Use  
+**Recommended Path:** `docs/OVERVIEW.md`  
+**Last Updated:** 2026-05-02  
+
+---
+
+## 1. Purpose
+
+This document provides a high-level overview of the OPRMT™ Framework, the purpose of the repository, and the surrounding ecosystem of documentation, prompt assets, compliance review, scoring, governance, and implementation support.
+
+This overview is intended for new readers, contributors, maintainers, learners, and approved implementation partners.
+
+---
+
+## 2. What Is OPRMT™?
+
+OPRMT™ is a structured prompt engineering framework created by Michael W. Fleming.
+
+It organizes prompt construction and AI instruction design into five controlled components:
+
+```text
+O — Objective
+P — Parameters
+R — Results
+M — Method
+T — Tools
+```
+
+The framework is designed to make prompts clearer, more repeatable, more auditable, and easier to evaluate.
+
+---
+
+## 3. Why OPRMT™ Exists
+
+Unstructured prompts often fail because they lack:
+
+- Clear task definition
+- Defined input boundaries
+- Output requirements
+- Execution process
+- Tool limits
+- Review criteria
+- Version control
+- Reusable structure
+
+OPRMT™ exists to reduce prompt ambiguity and convert AI instructions into structured technical assets.
+
+---
+
+## 4. Framework Components
+
+| Component | Purpose | Primary Question |
+|---|---|---|
+| Objective | Defines the task or outcome | What must be accomplished? |
+| Parameters | Defines inputs, constraints, and boundaries | What must the system know or obey? |
+| Results | Defines expected output or deliverable | What should the output look like? |
+| Method | Defines process or execution steps | How should the work be completed? |
+| Tools | Defines allowed resources and systems | What tools or sources may be used? |
+
+---
+
+## 5. OPRMT™ as a Repository System
+
+This repository is intended to function as a controlled framework documentation system, not a casual file collection.
+
+It supports:
+
+- Framework specification
+- Component documentation
+- Prompt templates
+- Prompt clusters
+- Compliance review
+- Scoring references
+- Certification support
+- Repository governance
+- Commercial-use boundaries
+- Automation support
+- Version-controlled releases
+
+---
+
+## 6. Repository Purpose
+
+The OPRMT™ Framework Repository exists to:
+
+```text
+1. Preserve official framework definitions.
+2. Organize prompt engineering documentation.
+3. Support repeatable prompt asset creation.
+4. Provide governance for framework changes.
+5. Define contribution and review processes.
+6. Protect ownership and attribution.
+7. Support future certification and training systems.
+8. Provide structured resources for implementation.
+```
+
+---
+
+## 7. OPRMT™ Ecosystem
+
+The OPRMT™ ecosystem may include the following related systems:
+
+| System | Description |
+|---|---|
+| OPRMT™ Framework | Core structured prompt engineering framework |
+| Prompt Compliance Engineering | Discipline for validating prompt and output compliance |
+| DOAS™ | Scoring and assessment model for structured prompt/output review |
+| Prompt Libraries | Collections of reusable prompt assets |
+| Prompt Clusters | Workflow-based grouped prompt systems |
+| Certification Materials | Curriculum, assessments, rubrics, and learner support files |
+| Repository Governance | Policies and workflows for controlled documentation management |
+| Automation Scripts | Tools for folder creation, validation, packaging, and release support |
+
+---
+
+## 8. Relationship Between OPRMT™, PCE, and DOAS™
+
+OPRMT™ defines the structure.
+
+Prompt Compliance Engineering evaluates whether prompts and outputs comply with defined requirements.
+
+DOAS™ may provide a scoring model for evaluating how well a prompt or output satisfies structured criteria.
+
+```text
+OPRMT™ = Structure
+PCE = Compliance Review
+DOAS™ = Scoring and Assessment
+```
+
+---
+
+## 9. Who This Repository Is For
+
+This repository may be useful for:
+
+- Prompt engineers
+- AI systems architects
+- Documentation maintainers
+- AI workflow designers
+- Curriculum developers
+- Repository contributors
+- Business automation designers
+- Compliance-oriented AI reviewers
+- Approved OPRMT™ implementation partners
+- Learners studying structured prompt engineering
+
+---
+
+## 10. What This Repository Is Not
+
+This repository should not be interpreted as:
+
+- Legal advice
+- Professional licensing authority
+- Academic accreditation
+- Guaranteed employment pathway
+- Guaranteed business outcome system
+- Guaranteed AI accuracy system
+- Public-domain content
+- Permission to resell OPRMT™ materials
+- Permission to white-label OPRMT™ as another system
+
+Use must follow the repository license, notice, commercial-use guidance, and approved governance process.
+
+---
+
+## 11. Documentation Architecture
+
+Recommended repository documentation categories:
+
+```text
+docs/
+standard/
+framework/
+prompts/
+pce/
+doas/
+certification/
+governance/
+legal/
+automation/
+.github/
+releases/
+```
+
+Each category has a different function and should not be mixed casually.
+
+---
+
+## 12. Framework Use Cases
+
+OPRMT™ can support:
+
+- Prompt template design
+- Prompt library development
+- AI workflow documentation
+- Business process automation
+- Course and assessment generation
+- Standardized AI assistant instructions
+- Output validation systems
+- Prompt quality review
+- Repository-governed prompt assets
+- Commercial prompt product planning, subject to usage rights
+
+---
+
+## 13. Repository Governance Model
+
+The repository should use controlled processes for:
+
+- Bug reporting
+- Document requests
+- Prompt submissions
+- Standard change requests
+- Pull request review
+- Markdown linting
+- Link checking
+- Versioned releases
+- Commercial-use review
+- Ownership and attribution protection
+
+Governance files and issue templates help prevent uncontrolled changes to the framework.
+
+---
+
+## 14. Recommended First Steps
+
+For new users:
+
+```text
+1. Read README.md.
+2. Read docs/GETTING_STARTED.md.
+3. Review docs/GLOSSARY.md.
+4. Review docs/FAQ.md.
+5. Study the official framework standard.
+6. Review the component documentation.
+7. Check license and usage guidance before reuse.
+```
+
+For contributors:
+
+```text
+1. Read CONTRIBUTING.md.
+2. Use the correct issue template.
+3. Follow file naming conventions.
+4. Preserve OPRMT™ terminology.
+5. Link controlled changes to a standard change request.
+6. Submit changes through pull request review.
+```
+
+---
+
+## 15. Quality Principles
+
+All repository materials should follow these principles:
+
+- Structured
+- Versioned
+- Auditable
+- Clear
+- Reusable
+- Properly attributed
+- Commercial-use aware
+- Documentation-first
+- Framework-consistent
+- Free of unsupported claims
+
+---
+
+## 16. Related Files
+
+```text
+README.md
+docs/INDEX.md
+docs/GETTING_STARTED.md
+docs/FAQ.md
+docs/GLOSSARY.md
+docs/IMPLEMENTATION.md
+standard/OPRMT-Framework-Standard-v1.0.md
+legal/COMMERCIAL_USE_GUIDANCE.md
+.github/PULL_REQUEST_TEMPLATE.md
+```
+
+---
+
+## 17. Ownership Notice
+
+OPRMT™ and related framework materials are owned by Michael W. Fleming unless otherwise stated in the repository license, notice, or usage policy.
+
+This overview supports repository onboarding, framework clarity, documentation consistency, and long-term protection of the official OPRMT™ Framework.
+
