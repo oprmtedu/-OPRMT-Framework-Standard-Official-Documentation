@@ -1,0 +1,637 @@
+# Glossary
+
+**Repository:** OPRMT™ Framework Repository  
+**Owner:** Michael W. Fleming  
+**Document Type:** Glossary  
+**Version:** v1.0.0  
+**Status:** Draft for Repository Use  
+**Recommended Path:** `docs/GLOSSARY.md`  
+**Last Updated:** 2026-05-02  
+
+---
+
+## 1. Purpose
+
+This glossary defines key terms used throughout the OPRMT™ Framework Repository.
+
+The purpose of this document is to maintain consistent terminology across framework specifications, prompt templates, Prompt Compliance Engineering materials, DOAS™ references, certification support documents, governance files, and repository documentation.
+
+Where a term has legal, compliance, certification, or commercial significance, this glossary provides repository-level meaning only and does not replace formal legal review.
+
+---
+
+## 2. Core Framework Terms
+
+### OPRMT™
+
+A structured prompt engineering framework created by Michael W. Fleming.
+
+OPRMT™ organizes prompt construction through five controlled components:
+
+```text
+O — Objective
+P — Parameters
+R — Results
+M — Method
+T — Tools
+```
+
+---
+
+### Objective
+
+The component that defines the primary task, goal, decision, or intended outcome of a prompt.
+
+The Objective answers:
+
+```text
+What must the AI system accomplish?
+```
+
+---
+
+### Parameters
+
+The component that defines the input variables, constraints, boundaries, assumptions, audience, scope, operating conditions, and required context.
+
+Parameters answer:
+
+```text
+What must the AI system know or obey while completing the task?
+```
+
+---
+
+### Results
+
+The component that defines the expected deliverable, output format, quality standard, success criteria, or completion state.
+
+Results answer:
+
+```text
+What should the finished output look like?
+```
+
+---
+
+### Method
+
+The component that defines the process, workflow, sequence, reasoning structure, procedural rules, or execution steps the AI system should follow.
+
+Method answers:
+
+```text
+How should the AI system complete the task?
+```
+
+---
+
+### Tools
+
+The component that defines allowed resources, systems, software, documents, APIs, datasets, templates, or integrations that may be used during execution.
+
+Tools answer:
+
+```text
+What resources may the AI system use?
+```
+
+---
+
+## 3. Prompt Engineering Terms
+
+### Prompt
+
+An instruction or set of instructions given to an AI system to produce a response, decision, transformation, analysis, or deliverable.
+
+In OPRMT™, a prompt is treated as an engineered artifact rather than casual prose.
+
+---
+
+### Structured Prompt
+
+A prompt organized into defined sections, variables, rules, and output requirements.
+
+An OPRMT™ structured prompt should follow the Objective, Parameters, Results, Method, and Tools sequence.
+
+---
+
+### Prompt Template
+
+A reusable prompt structure containing placeholders, variables, or repeatable instruction blocks.
+
+Example variables:
+
+```text
+{{TARGET_AUDIENCE}}
+{{OUTPUT_FORMAT}}
+{{INDUSTRY}}
+{{CONSTRAINTS}}
+{{TOOLS_ALLOWED}}
+```
+
+---
+
+### Prompt Cluster
+
+A grouped set of related prompts designed around a common workflow, business function, use case, or operational category.
+
+Examples:
+
+- Sales prompt cluster
+- Finance prompt cluster
+- Human resources prompt cluster
+- Administrative operations prompt cluster
+- Strategy and research prompt cluster
+
+---
+
+### Prompt Asset
+
+A prompt, prompt template, prompt cluster, instruction set, validation checklist, or workflow component treated as a reusable repository artifact.
+
+---
+
+### Prompt System
+
+A connected set of prompts, templates, validation rules, workflows, and supporting documentation used to complete a larger operational function.
+
+---
+
+### Prompt Library
+
+A collection of prompt assets organized by category, use case, industry, function, difficulty, or workflow.
+
+---
+
+## 4. Compliance and Validation Terms
+
+### Prompt Compliance Engineering
+
+Prompt Compliance Engineering, or PCE, is a discipline associated with validating whether prompts, AI outputs, and structured systems comply with defined requirements, constraints, formatting rules, operating standards, and intended use.
+
+---
+
+### PCE
+
+Abbreviation for Prompt Compliance Engineering.
+
+Within the OPRMT™ ecosystem, PCE focuses on whether a prompt or output follows the assigned Objective, Parameters, Results, Method, and Tools.
+
+---
+
+### Compliance Check
+
+A review process used to determine whether a prompt, document, template, output, or workflow satisfies defined requirements.
+
+---
+
+### Validation
+
+The process of checking whether an output meets its stated requirements, constraints, format, and expected result.
+
+---
+
+### Auditability
+
+The ability to inspect, trace, verify, and explain how a prompt, output, document, or workflow was structured and evaluated.
+
+---
+
+### Compliance Risk
+
+A potential issue that may cause a prompt, output, document, or system to violate requirements, create confusion, exceed scope, or misrepresent authority.
+
+---
+
+### Guardrail
+
+A constraint, rule, limitation, or instruction designed to reduce error, misuse, unsupported claims, ambiguity, or policy conflict.
+
+---
+
+## 5. DOAS™ Terms
+
+### DOAS™
+
+A scoring and assessment concept used to evaluate prompt or output quality against structured criteria.
+
+Within the OPRMT™ ecosystem, DOAS™ may support prompt compliance scoring, output review, rubric-based assessment, and quality validation.
+
+---
+
+### Scorecard
+
+A structured document or tool used to record scores, observations, issues, recommendations, and approval status.
+
+---
+
+### Rubric
+
+A scoring guide that defines categories, criteria, point values, and interpretation rules for evaluating a prompt or output.
+
+---
+
+### Success Criteria
+
+The conditions a prompt, output, workflow, or document must satisfy to be considered complete, acceptable, or compliant.
+
+---
+
+## 6. Repository Terms
+
+### Repository
+
+The GitHub project space where OPRMT™ files, documentation, templates, workflows, policies, and release materials are stored and maintained.
+
+---
+
+### Root Directory
+
+The top-level area of the repository.
+
+Common root files include:
+
+```text
+README.md
+LICENSE.md
+NOTICE.md
+CHANGELOG.md
+CONTRIBUTING.md
+SECURITY.md
+CODE_OF_CONDUCT.md
+```
+
+---
+
+### README
+
+A document that explains the purpose, structure, usage, and navigation of a repository or folder.
+
+---
+
+### Issue Template
+
+A structured GitHub form or Markdown template used to submit bugs, document requests, prompt submissions, or standard change requests.
+
+---
+
+### Pull Request
+
+A proposed set of changes submitted for review before being merged into the repository.
+
+---
+
+### Workflow
+
+A GitHub Actions automation file used to run checks, validations, release packaging, linting, or other repository processes.
+
+---
+
+### Release
+
+A tagged repository version that packages a defined state of the repository for public or internal reference.
+
+---
+
+### Changelog
+
+A document that records meaningful changes between repository versions.
+
+---
+
+## 7. Documentation Terms
+
+### Specification
+
+A controlled document that defines official rules, structures, definitions, requirements, or implementation standards.
+
+---
+
+### Standard
+
+An authoritative document that defines the accepted structure, terminology, requirements, or governance model for the framework.
+
+---
+
+### Guide
+
+A practical document that explains how to use, apply, or implement part of the repository or framework.
+
+---
+
+### Policy
+
+A rule-based document that defines required behavior, restrictions, review processes, or governance requirements.
+
+---
+
+### Template
+
+A reusable document structure intended to standardize repeated work.
+
+---
+
+### Metadata
+
+Structured information about a document, file, prompt, or asset.
+
+Common metadata fields include:
+
+```text
+Title
+Version
+Status
+Owner
+Repository Path
+Document Type
+Last Updated
+Usage Scope
+License Reference
+```
+
+---
+
+### Front Matter
+
+A structured metadata block, often written in YAML, placed at the beginning of a Markdown file.
+
+Example:
+
+```yaml
+---
+title: "Example Document"
+version: "v1.0.0"
+status: "Draft"
+owner: "Michael W. Fleming"
+---
+```
+
+---
+
+## 8. Governance Terms
+
+### Governance
+
+The rules, processes, review controls, and authority structures used to maintain repository integrity and framework consistency.
+
+---
+
+### Standard Change Request
+
+A formal request to modify controlled framework language, definitions, standards, governance rules, validation logic, or specification documents.
+
+---
+
+### Maintainer
+
+A person authorized to review, manage, approve, reject, or merge changes into the repository.
+
+---
+
+### Repository Specialist
+
+A role responsible for repository organization, file structure, documentation quality, issue handling, release preparation, and framework integrity support.
+
+---
+
+### Framework Owner
+
+The owner of the OPRMT™ Framework and final authority for controlled framework decisions unless otherwise delegated.
+
+---
+
+### Controlled Term
+
+A term that has an official meaning within OPRMT™ and should not be changed casually.
+
+Examples:
+
+```text
+Objective
+Parameters
+Results
+Method
+Tools
+Prompt Compliance Engineering
+DOAS™
+```
+
+---
+
+## 9. Versioning Terms
+
+### Version
+
+A label identifying the state of a document, standard, release, or repository asset.
+
+Example:
+
+```text
+v1.0.0
+```
+
+---
+
+### Semantic Versioning
+
+A version format commonly represented as:
+
+```text
+vMAJOR.MINOR.PATCH
+```
+
+---
+
+### Major Version
+
+A version update that changes structure, compatibility, definitions, or controlled meaning.
+
+Example:
+
+```text
+v1.0.0 → v2.0.0
+```
+
+---
+
+### Minor Version
+
+A version update that adds guidance, expands documentation, or clarifies meaning without breaking compatibility.
+
+Example:
+
+```text
+v1.0.0 → v1.1.0
+```
+
+---
+
+### Patch Version
+
+A version update for typo fixes, broken links, formatting corrections, or small non-substantive changes.
+
+Example:
+
+```text
+v1.0.0 → v1.0.1
+```
+
+---
+
+### Deprecation
+
+A formal notice that a file, term, process, or version is outdated and should no longer be used as the preferred reference.
+
+---
+
+## 10. Legal and Usage Terms
+
+### License
+
+A legal document that defines how repository materials may be used, copied, modified, redistributed, or restricted.
+
+---
+
+### Notice
+
+A document that states ownership, attribution requirements, intellectual property claims, or related usage information.
+
+---
+
+### Attribution
+
+A statement identifying the original creator, owner, or source of a framework, document, or asset.
+
+Recommended attribution:
+
+```text
+OPRMT™ Framework created by Michael W. Fleming.
+```
+
+---
+
+### Commercial Use
+
+Use involving sale, monetization, redistribution, paid products, client deliverables, SaaS products, memberships, commercial training, or revenue-generating deployment.
+
+---
+
+### Internal Business Use
+
+Use inside an organization for non-redistributed operational work, team learning, workflow design, or private implementation.
+
+---
+
+### White-Label Use
+
+Rebranding, repackaging, or presenting OPRMT™ materials as another party’s original system.
+
+White-label use is not allowed without written permission.
+
+---
+
+### Derivative Work
+
+A work substantially based on, adapted from, reorganized from, translated from, modified from, or commercially built around OPRMT™ materials.
+
+---
+
+## 11. Certification Terms
+
+### Certification
+
+A structured recognition process that may involve curriculum, assessments, rubrics, completion criteria, and controlled issuance.
+
+Repository documents should not claim official accreditation, employment recognition, legal authority, or professional licensing status unless verified and approved.
+
+---
+
+### Certificate
+
+A document or credential indicating completion, participation, or recognition under a defined program.
+
+---
+
+### Assessment
+
+A quiz, assignment, test, rubric, review, or evaluation activity used to measure learner performance or compliance.
+
+---
+
+### Capstone
+
+A final project used to demonstrate applied understanding of a course, framework, or certification system.
+
+---
+
+## 12. Automation Terms
+
+### GitHub Actions
+
+GitHub’s automation system for running workflows such as lint checks, link checks, release packaging, and validation tasks.
+
+---
+
+### Markdown Lint
+
+An automated check that reviews Markdown formatting consistency.
+
+---
+
+### Link Check
+
+An automated check that identifies broken, invalid, or unreachable links in repository files.
+
+---
+
+### Release Workflow
+
+An automation process that packages and publishes repository versions based on tags or manual workflow runs.
+
+---
+
+### Apps Script
+
+Google Apps Script automation that may be used to create Drive folder structures, generate documents, or automate repository-adjacent workflows.
+
+---
+
+## 13. Preferred Terminology
+
+Use:
+
+```text
+OPRMT™ Framework
+Prompt Compliance Engineering
+DOAS™
+Objective
+Parameters
+Results
+Method
+Tools
+repository governance
+framework standard
+structured prompt
+prompt asset
+```
+
+Avoid unsupported or unclear alternatives such as:
+
+```text
+OPRMT method thing
+random prompt formula
+official accreditation
+guaranteed AI success
+legal compliance guarantee
+industry-certified unless verified
+```
+
+---
+
+## 14. Ownership Notice
+
+OPRMT™ and related framework materials are owned by Michael W. Fleming unless otherwise stated in the repository license, notice, or usage policy.
+
+This glossary supports terminology consistency, documentation clarity, repository governance, prompt compliance alignment, and long-term protection of the official OPRMT™ Framework.
+
