@@ -1,0 +1,443 @@
+# Getting Started
+
+**Repository:** OPRMT™ Framework Repository  
+**Owner:** Michael W. Fleming  
+**Document Type:** Getting Started Guide  
+**Version:** v1.0.0  
+**Status:** Draft for Repository Use  
+**Recommended Path:** `docs/GETTING_STARTED.md`  
+**Last Updated:** 2026-05-02  
+
+---
+
+## 1. Purpose
+
+This guide explains how to begin using the OPRMT™ Framework Repository.
+
+It is designed for readers, contributors, maintainers, prompt engineers, documentation reviewers, and approved implementation partners who need a structured starting point.
+
+This guide does not replace the official OPRMT™ Framework Standard, license, notice, or governance documents.
+
+---
+
+## 2. What This Repository Contains
+
+The OPRMT™ Framework Repository is a structured documentation and governance system for the OPRMT™ Framework and related materials.
+
+The repository may include:
+
+- Official framework standards
+- Component-level specifications
+- Prompt templates
+- Prompt cluster structures
+- Prompt Compliance Engineering materials
+- DOAS™ scoring references
+- Certification support materials
+- Repository governance files
+- Legal and usage guidance
+- Automation scripts
+- GitHub issue templates
+- GitHub workflow files
+
+---
+
+## 3. Core Framework Structure
+
+OPRMT™ uses five controlled components:
+
+```text
+O — Objective
+P — Parameters
+R — Results
+M — Method
+T — Tools
+```
+
+Each structured prompt or framework document should preserve this order unless a controlled standard change has been approved.
+
+---
+
+## 4. Recommended First Reading Path
+
+Start with these files in order:
+
+```text
+1. README.md
+2. docs/GETTING_STARTED.md
+3. docs/FAQ.md
+4. docs/GLOSSARY.md
+5. standard/OPRMT-Framework-Standard-v1.0.md
+6. framework/objective/README.md
+7. framework/parameters/README.md
+8. framework/results/README.md
+9. framework/method/README.md
+10. framework/tools/README.md
+```
+
+If you are reviewing repository governance, also read:
+
+```text
+CONTRIBUTING.md
+CHANGELOG.md
+NOTICE.md
+LICENSE.md
+governance/governance-charter.md
+legal/COMMERCIAL_USE_GUIDANCE.md
+```
+
+---
+
+## 5. Repository Folder Map
+
+| Folder | Purpose |
+|---|---|
+| `.github` | Issue templates, pull request templates, GitHub Actions workflows |
+| `docs` | General guides, FAQ, glossary, onboarding documentation |
+| `standard` | Official framework standard and controlled specification documents |
+| `framework` | Component-level documentation for Objective, Parameters, Results, Method, and Tools |
+| `prompts` | Prompt templates, examples, validation prompts, and prompt clusters |
+| `pce` | Prompt Compliance Engineering documentation and validation references |
+| `doas` | DOAS™ scoring model, rubric, and scorecard references |
+| `certification` | Curriculum, assessment, and certification support documents |
+| `governance` | Governance policies, release controls, contribution rules |
+| `legal` | Usage guidance, attribution policy, commercial use guidance, and related documents |
+| `assets` | Brand, diagram, badge, and supporting visual assets |
+| `automation` | Apps Script files, GitHub Actions support, repository automation scripts |
+| `releases` | Release notes, packaged versions, and release support materials |
+
+---
+
+## 6. How to Use the Framework
+
+A basic OPRMT™ prompt should define each of the five components.
+
+### 6.1 Objective
+
+Define the task, goal, decision, or deliverable.
+
+```text
+Objective:
+Create a structured onboarding guide for a new repository contributor.
+```
+
+### 6.2 Parameters
+
+Define the input variables, constraints, scope, audience, and operating boundaries.
+
+```text
+Parameters:
+Audience: New GitHub contributors
+Tone: Professional and direct
+Format: Markdown
+Length: 1,500–2,000 words
+Constraints: Do not include unsupported legal claims
+```
+
+### 6.3 Results
+
+Define the expected output.
+
+```text
+Results:
+A repository-ready Markdown guide with headings, checklists, and implementation notes.
+```
+
+### 6.4 Method
+
+Define the process the AI system should follow.
+
+```text
+Method:
+1. Explain repository purpose.
+2. Define folder structure.
+3. Explain contribution workflow.
+4. Include review checklist.
+5. Add ownership notice.
+```
+
+### 6.5 Tools
+
+Define allowed tools, sources, or file references.
+
+```text
+Tools:
+Use repository README, governance files, issue templates, and existing documentation.
+```
+
+---
+
+## 7. Basic OPRMT™ Prompt Template
+
+Use this starter template for structured prompt creation.
+
+```text
+Objective:
+{{DEFINE_TASK_OR_GOAL}}
+
+Parameters:
+- Audience: {{TARGET_AUDIENCE}}
+- Context: {{CONTEXT}}
+- Constraints: {{CONSTRAINTS}}
+- Required format: {{OUTPUT_FORMAT}}
+- Tone: {{TONE}}
+- Scope: {{SCOPE}}
+
+Results:
+{{EXPECTED_OUTPUT_OR_DELIVERABLE}}
+
+Method:
+1. {{STEP_ONE}}
+2. {{STEP_TWO}}
+3. {{STEP_THREE}}
+4. {{STEP_FOUR}}
+
+Tools:
+- {{TOOL_OR_SOURCE_ONE}}
+- {{TOOL_OR_SOURCE_TWO}}
+- {{REFERENCE_FILE_OR_SYSTEM}}
+```
+
+---
+
+## 8. How to Add a New Document
+
+Before adding a new document, confirm:
+
+- The document has a clear purpose.
+- The document belongs in the correct folder.
+- The filename follows repository naming conventions.
+- The document includes version and ownership information.
+- The document does not conflict with existing standard language.
+- The document does not introduce unsupported claims.
+- Related README or index files are updated if needed.
+
+Recommended new document workflow:
+
+```text
+1. Identify document type.
+2. Select repository folder.
+3. Assign filename.
+4. Add metadata.
+5. Write purpose section.
+6. Write main content.
+7. Add implementation notes.
+8. Add ownership notice.
+9. Update related index files.
+10. Submit through pull request.
+```
+
+---
+
+## 9. How to Name Files
+
+Use clear hyphenated names.
+
+Preferred:
+
+```text
+OPRMT-Framework-Standard-v1.0.md
+OPRMT-Objective-Spec-v1.0.md
+PCE-Validation-Taxonomy-v1.0.md
+DOAS-Scoring-Model-v1.0.md
+COMMERCIAL_USE_GUIDANCE.md
+```
+
+Avoid:
+
+```text
+final.md
+doc.md
+updated.md
+new-file-final.md
+random-notes.md
+```
+
+For issue templates, use uppercase underscore style when appropriate:
+
+```text
+BUG_REPORT.md
+DOCUMENT_REQUEST.md
+STANDARD_CHANGE_REQUEST.md
+PROMPT_SUBMISSION.md
+```
+
+---
+
+## 10. How to Submit a Bug Report
+
+Use:
+
+```text
+.github/ISSUE_TEMPLATE/BUG_REPORT.md
+```
+
+Submit a bug report for:
+
+- Broken links
+- Incorrect file paths
+- Markdown rendering errors
+- Documentation mistakes
+- Repository structure issues
+- Prompt template problems
+- Automation failures
+- Compliance concerns
+
+---
+
+## 11. How to Request a Document
+
+Use:
+
+```text
+.github/ISSUE_TEMPLATE/DOCUMENT_REQUEST.md
+```
+
+Submit a document request when a new guide, policy, template, standard, or support file is needed.
+
+---
+
+## 12. How to Request a Standard Change
+
+Use:
+
+```text
+.github/ISSUE_TEMPLATE/STANDARD_CHANGE_REQUEST.md
+```
+
+Submit a standard change request when proposing changes to:
+
+- OPRMT™ component definitions
+- Official framework language
+- Governance rules
+- Versioning standards
+- Validation logic
+- Certification alignment
+- PCE or DOAS™ alignment
+
+---
+
+## 13. How to Submit a Prompt
+
+Use:
+
+```text
+.github/ISSUE_TEMPLATE/PROMPT_SUBMISSION.md
+```
+
+Prompt submissions should be structured using the OPRMT™ sequence:
+
+```text
+Objective
+Parameters
+Results
+Method
+Tools
+```
+
+Submissions should include use case, output requirements, constraints, and compliance notes.
+
+---
+
+## 14. Pull Request Process
+
+Use the repository pull request template:
+
+```text
+.github/PULL_REQUEST_TEMPLATE.md
+```
+
+Before opening a pull request:
+
+- Confirm Markdown renders correctly.
+- Confirm links are accurate.
+- Confirm filenames and paths are correct.
+- Confirm ownership notices remain intact.
+- Confirm no unsupported claims were introduced.
+- Confirm controlled standard changes are linked to a standard change request.
+- Confirm related documentation indexes are updated.
+
+---
+
+## 15. Versioning Basics
+
+Recommended version format:
+
+```text
+vMAJOR.MINOR.PATCH
+```
+
+Use:
+
+```text
+v1.0.0
+```
+
+For the first stable public structure.
+
+Version meaning:
+
+| Version Type | Use Case |
+|---|---|
+| Patch | Typo fixes, link fixes, formatting corrections |
+| Minor | New documentation, expanded guidance, non-breaking clarification |
+| Major | Structural changes, definition changes, compatibility-impacting updates |
+
+---
+
+## 16. Commercial Use Reminder
+
+Do not assume commercial use is automatically allowed.
+
+Review:
+
+```text
+LICENSE.md
+NOTICE.md
+legal/COMMERCIAL_USE_GUIDANCE.md
+legal/USAGE_POLICY.md
+```
+
+Commercial resale, redistribution, white-labeling, certification claims, and paid derivative products may require written permission.
+
+---
+
+## 17. Maintainer Standards
+
+Maintainers should preserve:
+
+- OPRMT™ terminology
+- Official framework sequence
+- Ownership notices
+- File naming discipline
+- Documentation consistency
+- Version control
+- Commercial-use boundaries
+- Controlled standard change process
+
+---
+
+## 18. Quick Start Checklist
+
+Use this checklist when beginning work in the repository.
+
+- [ ] Read `README.md`
+- [ ] Read `docs/FAQ.md`
+- [ ] Read `docs/GLOSSARY.md`
+- [ ] Review the OPRMT™ sequence
+- [ ] Identify the correct folder for your work
+- [ ] Use approved naming conventions
+- [ ] Include metadata in major documents
+- [ ] Preserve ownership notices
+- [ ] Use issue templates when requesting changes
+- [ ] Use pull request template when submitting changes
+- [ ] Avoid unsupported claims
+- [ ] Confirm license and usage guidance before commercial use
+
+---
+
+## 19. Ownership Notice
+
+OPRMT™ and related framework materials are owned by Michael W. Fleming unless otherwise stated in the repository license, notice, or usage policy.
+
+This Getting Started guide supports onboarding, repository clarity, documentation discipline, structured contribution, and long-term protection of the official OPRMT™ Framework.
+
