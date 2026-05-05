@@ -1,0 +1,465 @@
+# OPRMT™ Implementation Guide
+
+**Repository:** OPRMT™ Framework Repository  
+**Owner:** Michael W. Fleming  
+**Document Type:** Implementation Guide  
+**Version:** v1.0.0  
+**Status:** Draft for Repository Use  
+**Recommended Path:** `docs/IMPLEMENTATION.md`  
+**Last Updated:** 2026-05-02  
+
+---
+
+## 1. Purpose
+
+This implementation guide explains how to apply the OPRMT™ Framework in practical prompt engineering, documentation, workflow design, prompt libraries, AI-assisted business systems, and repository-governed prompt assets.
+
+This guide is not the official framework standard. It is an operational guide for applying the framework consistently.
+
+---
+
+## 2. Implementation Principle
+
+OPRMT™ should be implemented as a structured instruction system, not as casual prompt wording.
+
+Every implementation should define:
+
+```text
+O — Objective
+P — Parameters
+R — Results
+M — Method
+T — Tools
+```
+
+The structure exists to improve clarity, repeatability, auditability, and review quality.
+
+---
+
+## 3. When to Use OPRMT™
+
+Use OPRMT™ when the task requires:
+
+- Repeatable prompt construction
+- Professional AI workflow design
+- Clear output requirements
+- Auditable prompt structure
+- Prompt library development
+- Prompt cluster packaging
+- AI assistant instructions
+- Business process automation
+- Documentation generation
+- Curriculum or assessment design
+- Compliance-oriented output review
+- Prompt quality scoring
+
+Avoid using full OPRMT™ structure for trivial one-line tasks unless consistency or auditability is required.
+
+---
+
+## 4. Implementation Levels
+
+| Level | Use Case | Required Structure |
+|---|---|---|
+| Level 1 — Basic | Simple personal or internal prompt | Objective + Results |
+| Level 2 — Structured | Reusable work prompt | Objective + Parameters + Results |
+| Level 3 — Operational | Business workflow or documentation task | Objective + Parameters + Results + Method |
+| Level 4 — Governed | Repository, product, course, or prompt library asset | Full OPRMT™ structure |
+| Level 5 — Compliance Reviewed | PCE or DOAS™ scored prompt/output | Full OPRMT™ + validation criteria |
+
+---
+
+## 5. OPRMT™ Component Implementation
+
+### 5.1 Objective
+
+The Objective defines the task the AI system must complete.
+
+A strong Objective should be:
+
+- Specific
+- Actionable
+- Outcome-oriented
+- Limited to one primary purpose
+- Clear enough to evaluate
+
+Example:
+
+```text
+Objective:
+Create a repository-ready Markdown guide explaining how contributors should submit prompt templates to the OPRMT™ repository.
+```
+
+Weak Objective:
+
+```text
+Objective:
+Help with prompts.
+```
+
+---
+
+### 5.2 Parameters
+
+Parameters define operating conditions, input variables, constraints, audience, scope, and assumptions.
+
+Recommended parameter categories:
+
+```text
+Audience:
+Context:
+Inputs:
+Constraints:
+Required format:
+Tone:
+Length:
+Exclusions:
+Compliance limits:
+```
+
+Example:
+
+```text
+Parameters:
+- Audience: GitHub contributors
+- Format: Markdown
+- Tone: Professional and direct
+- Scope: Prompt submission process only
+- Constraint: Do not claim official certification or legal authority
+```
+
+---
+
+### 5.3 Results
+
+Results define the expected output or deliverable.
+
+A strong Results section should specify:
+
+- Output format
+- Required sections
+- Quality criteria
+- Completion standard
+- Validation requirement
+
+Example:
+
+```text
+Results:
+A repository-ready Markdown issue template with metadata, submission fields, OPRMT™ compliance checks, and maintainer review section.
+```
+
+---
+
+### 5.4 Method
+
+Method defines the execution process.
+
+Use Method when the task requires repeatability, review, or multi-step work.
+
+Example:
+
+```text
+Method:
+1. Identify the document purpose.
+2. Define required contributor inputs.
+3. Add OPRMT™ component review fields.
+4. Add compliance and ownership confirmation.
+5. Add maintainer review section.
+```
+
+---
+
+### 5.5 Tools
+
+Tools define allowed resources, files, platforms, systems, or integrations.
+
+Example:
+
+```text
+Tools:
+- Existing repository README
+- OPRMT™ Framework Standard
+- GitHub issue template format
+- Markdown syntax
+```
+
+---
+
+## 6. Standard OPRMT™ Prompt Template
+
+Use this template for reusable prompts.
+
+```text
+Objective:
+{{PRIMARY_TASK_OR_GOAL}}
+
+Parameters:
+- Audience: {{TARGET_AUDIENCE}}
+- Context: {{BACKGROUND_CONTEXT}}
+- Inputs: {{REQUIRED_INPUTS}}
+- Constraints: {{BOUNDARIES_OR_LIMITATIONS}}
+- Format: {{OUTPUT_FORMAT}}
+- Tone: {{TONE}}
+- Scope: {{SCOPE_LIMITS}}
+
+Results:
+{{EXPECTED_OUTPUT}}
+
+Method:
+1. {{STEP_ONE}}
+2. {{STEP_TWO}}
+3. {{STEP_THREE}}
+4. {{STEP_FOUR}}
+
+Tools:
+- {{ALLOWED_TOOL_OR_SOURCE_ONE}}
+- {{ALLOWED_TOOL_OR_SOURCE_TWO}}
+- {{REFERENCE_DOCUMENT_OR_SYSTEM}}
+```
+
+---
+
+## 7. Repository Implementation Workflow
+
+When implementing OPRMT™ inside the repository, use this workflow:
+
+```text
+1. Define the purpose of the file or prompt asset.
+2. Assign the correct repository folder.
+3. Select the correct document or prompt type.
+4. Apply the OPRMT™ structure where appropriate.
+5. Add metadata or document header.
+6. Add version number.
+7. Add usage scope.
+8. Add ownership notice.
+9. Check for unsupported claims.
+10. Submit through pull request review.
+```
+
+---
+
+## 8. Prompt Library Implementation
+
+For prompt libraries, each prompt should include:
+
+```text
+Prompt ID:
+Prompt Name:
+Category:
+Subcategory:
+Version:
+Status:
+Difficulty:
+Use Case:
+Objective:
+Parameters:
+Results:
+Method:
+Tools:
+Output Format:
+Compliance Notes:
+Ownership Notice:
+```
+
+Recommended prompt ID format:
+
+```text
+LIB-[CATEGORY]-[NUMBER]
+```
+
+Examples:
+
+```text
+LIB-SLS-001
+LIB-ADM-001
+LIB-FIN-001
+LIB-HR-001
+LIB-STR-001
+```
+
+---
+
+## 9. Prompt Cluster Implementation
+
+A prompt cluster should include:
+
+```text
+Cluster ID:
+Cluster Name:
+Business Function:
+Audience:
+Use Case:
+Included Prompts:
+Workflow Sequence:
+Input Requirements:
+Output Deliverables:
+Automation Notes:
+PCE Review Notes:
+DOAS™ Scoring Notes:
+Commercial Use Notes:
+Ownership Notice:
+```
+
+A prompt cluster should not be a random list of prompts. It should operate as a controlled workflow system.
+
+---
+
+## 10. Documentation Implementation
+
+Repository documentation should follow this pattern:
+
+```text
+1. Title
+2. Metadata/header
+3. Purpose
+4. Scope
+5. Main content
+6. Implementation notes
+7. Governance or compliance notes
+8. Related files
+9. Versioning notes
+10. Ownership notice
+```
+
+Major documents should include:
+
+```text
+Repository:
+Owner:
+Document Type:
+Version:
+Status:
+Recommended Path:
+Last Updated:
+```
+
+---
+
+## 11. PCE Implementation
+
+Use Prompt Compliance Engineering when a prompt or output must be reviewed for adherence to requirements.
+
+A basic PCE review should check:
+
+- Does the output satisfy the Objective?
+- Did the output follow the Parameters?
+- Did the output match the expected Results?
+- Did the output follow the Method?
+- Did the output use only approved Tools?
+- Did the output avoid unsupported claims?
+- Did the output preserve required ownership and usage notices?
+- Did the output meet formatting requirements?
+
+---
+
+## 12. DOAS™ Implementation
+
+Use DOAS™ scoring when an output needs a structured quality or compliance score.
+
+Suggested review categories:
+
+```text
+Objective Alignment:
+Parameter Compliance:
+Result Completeness:
+Method Execution:
+Tool Boundary Compliance:
+Formatting Quality:
+Risk Control:
+Commercial/Legal Claim Safety:
+```
+
+Do not claim guaranteed success rates without validated testing and approved language.
+
+---
+
+## 13. Implementation Quality Checklist
+
+Before finalizing an OPRMT™ prompt, document, or workflow, confirm:
+
+- [ ] Objective is clear.
+- [ ] Parameters are explicit.
+- [ ] Results are measurable or reviewable.
+- [ ] Method is actionable.
+- [ ] Tools are identified where applicable.
+- [ ] Output format is specified.
+- [ ] Constraints are included.
+- [ ] Unsupported claims are removed.
+- [ ] Ownership notice is preserved.
+- [ ] Versioning is clear.
+- [ ] Repository path is correct.
+- [ ] Related index files are updated.
+
+---
+
+## 14. Common Implementation Errors
+
+Avoid these errors:
+
+| Error | Problem |
+|---|---|
+| Vague Objective | Makes output difficult to evaluate |
+| Missing Parameters | Causes uncontrolled assumptions |
+| Undefined Results | Makes completion unclear |
+| No Method | Reduces repeatability |
+| Unrestricted Tools | Creates source, privacy, or compliance risk |
+| Unsupported Claims | Creates legal, business, or credibility risk |
+| No Version | Makes change tracking difficult |
+| No Ownership Notice | Weakens attribution and IP protection |
+
+---
+
+## 15. Implementation Example
+
+```text
+Objective:
+Create a repository-ready issue template for submitting new OPRMT™ prompt assets.
+
+Parameters:
+- Audience: GitHub contributors
+- Format: Markdown issue template
+- Scope: Prompt submission only
+- Required sections: Objective, Parameters, Results, Method, Tools, compliance notes
+- Constraint: Do not grant commercial rights through submission
+
+Results:
+A complete PROMPT_SUBMISSION.md file ready for `.github/ISSUE_TEMPLATE/`.
+
+Method:
+1. Define contributor input fields.
+2. Add OPRMT™ structure validation.
+3. Add ownership and licensing confirmation.
+4. Add maintainer review section.
+5. Add final ownership notice.
+
+Tools:
+- GitHub issue template syntax
+- OPRMT™ framework terminology
+- Repository governance rules
+```
+
+---
+
+## 16. Related Files
+
+```text
+README.md
+docs/INDEX.md
+docs/OVERVIEW.md
+docs/FAQ.md
+docs/GLOSSARY.md
+standard/OPRMT-Framework-Standard-v1.0.md
+.github/ISSUE_TEMPLATE/PROMPT_SUBMISSION.md
+.github/PULL_REQUEST_TEMPLATE.md
+legal/COMMERCIAL_USE_GUIDANCE.md
+```
+
+---
+
+## 17. Ownership Notice
+
+OPRMT™ and related framework materials are owned by Michael W. Fleming unless otherwise stated in the repository license, notice, or usage policy.
+
+This implementation guide supports structured prompt engineering, repository consistency, prompt compliance alignment, and long-term protection of the official OPRMT™ Framework.
+
