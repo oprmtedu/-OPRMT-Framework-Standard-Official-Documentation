@@ -1,0 +1,365 @@
+# FAQ
+
+**Repository:** OPRMT™ Framework Repository  
+**Owner:** Michael W. Fleming  
+**Document Type:** Frequently Asked Questions  
+**Version:** v1.0.0  
+**Status:** Draft for Repository Use  
+**Recommended Path:** `docs/FAQ.md`  
+**Last Updated:** 2026-05-02  
+
+---
+
+## 1. Purpose
+
+This FAQ answers common questions about the OPRMT™ Framework, the repository structure, usage expectations, documentation standards, prompt submissions, standard changes, and related systems such as Prompt Compliance Engineering and DOAS™.
+
+This document is intended for readers, contributors, maintainers, learners, and approved implementation partners.
+
+---
+
+## 2. What Is OPRMT™?
+
+OPRMT™ is a structured prompt engineering framework created by Michael W. Fleming.
+
+The framework organizes prompts and AI instructions through five controlled components:
+
+```text
+O — Objective
+P — Parameters
+R — Results
+M — Method
+T — Tools
+```
+
+The purpose of OPRMT™ is to make prompts more structured, repeatable, auditable, and suitable for professional implementation.
+
+---
+
+## 3. What Does OPRMT™ Stand For?
+
+OPRMT™ stands for:
+
+| Letter | Component | Meaning |
+|---|---|---|
+| O | Objective | Defines the task, goal, or outcome the prompt must accomplish |
+| P | Parameters | Defines inputs, constraints, boundaries, variables, and operating conditions |
+| R | Results | Defines the expected output, deliverable, format, or success criteria |
+| M | Method | Defines the execution process, reasoning structure, or workflow |
+| T | Tools | Defines allowed tools, resources, systems, files, or integrations |
+
+---
+
+## 4. Who Created OPRMT™?
+
+OPRMT™ was created by Michael W. Fleming.
+
+Repository materials, framework documentation, prompt systems, Prompt Compliance Engineering materials, DOAS™ references, certification concepts, and related assets are owned by Michael W. Fleming unless otherwise stated in the repository license, notice, or usage policy.
+
+---
+
+## 5. What Is This Repository For?
+
+This repository is intended to serve as the structured documentation and governance home for the OPRMT™ Framework.
+
+It may include:
+
+- Framework specifications
+- Component documentation
+- Prompt templates
+- Prompt cluster structures
+- Prompt Compliance Engineering materials
+- DOAS™ scoring references
+- Certification support documents
+- Repository governance files
+- Legal and usage guidance
+- Automation scripts
+- GitHub issue templates and workflows
+
+---
+
+## 6. Is OPRMT™ a Prompt Library or a Framework?
+
+OPRMT™ is primarily a framework.
+
+A prompt library may be built using OPRMT™, but the framework itself defines the structure and rules for prompt construction.
+
+A prompt library is a collection of prompt assets. OPRMT™ is the structured system used to design, classify, evaluate, and govern those assets.
+
+---
+
+## 7. What Is Prompt Compliance Engineering?
+
+Prompt Compliance Engineering, or PCE, is a discipline associated with validating whether prompts, AI outputs, and structured systems comply with defined requirements, constraints, formatting rules, operational standards, and intended use.
+
+Within the OPRMT™ ecosystem, PCE helps evaluate whether prompt outputs follow the assigned Objective, Parameters, Results, Method, and Tools.
+
+---
+
+## 8. What Is DOAS™?
+
+DOAS™ refers to a scoring and assessment concept used to evaluate prompt or output quality against structured criteria.
+
+In the OPRMT™ ecosystem, DOAS™ may be used to score prompt compliance, output completeness, execution quality, and alignment with framework requirements.
+
+DOAS™ documentation should not claim guaranteed success rates unless supported by validated testing, controlled metrics, and approved language.
+
+---
+
+## 9. Can I Use OPRMT™ for My Own Prompts?
+
+Personal, educational, and internal reference use may be allowed under the repository license and usage guidance.
+
+Commercial use, redistribution, white-labeling, certification claims, and resale may require written permission or a separate license.
+
+Review the following files before using OPRMT™ materials:
+
+```text
+/LICENSE.md
+/NOTICE.md
+/legal/COMMERCIAL_USE_GUIDANCE.md
+/legal/USAGE_POLICY.md
+```
+
+---
+
+## 10. Can I Sell OPRMT™ Prompt Packs?
+
+Not by default.
+
+Selling OPRMT™ prompt packs, copied templates, derivative prompt clusters, training materials, or commercial products based substantially on OPRMT™ repository content may require written permission from the owner.
+
+Commercial use must follow the repository license, notice, and commercial use guidance.
+
+---
+
+## 11. Can I Teach OPRMT™?
+
+You may reference or discuss OPRMT™ for educational purposes with proper attribution, subject to repository terms.
+
+You may not claim to be an official OPRMT™ instructor, authorized certification provider, accredited training partner, or official representative unless approved in writing.
+
+---
+
+## 12. Can I Contribute to the Repository?
+
+Contributions may be accepted if they follow repository governance, naming conventions, documentation standards, issue templates, pull request requirements, and ownership rules.
+
+Before contributing, review:
+
+```text
+/CONTRIBUTING.md
+/.github/PULL_REQUEST_TEMPLATE.md
+/.github/ISSUE_TEMPLATE/DOCUMENT_REQUEST.md
+/.github/ISSUE_TEMPLATE/STANDARD_CHANGE_REQUEST.md
+/.github/ISSUE_TEMPLATE/PROMPT_SUBMISSION.md
+```
+
+---
+
+## 13. How Do I Report a Bug?
+
+Use the bug report issue template.
+
+Recommended path:
+
+```text
+.github/ISSUE_TEMPLATE/BUG_REPORT.md
+```
+
+Use this template for:
+
+- Broken links
+- Documentation errors
+- Markdown formatting problems
+- Automation failures
+- Prompt template issues
+- OPRMT™ compliance concerns
+- Repository structure issues
+
+---
+
+## 14. How Do I Request a New Document?
+
+Use the document request issue template.
+
+Recommended path:
+
+```text
+.github/ISSUE_TEMPLATE/DOCUMENT_REQUEST.md
+```
+
+Use this when requesting:
+
+- New documentation
+- New policy files
+- New guides
+- New framework explanations
+- New repository support files
+- New certification documentation
+
+---
+
+## 15. How Do I Request a Change to the OPRMT™ Standard?
+
+Use the standard change request issue template.
+
+Recommended path:
+
+```text
+.github/ISSUE_TEMPLATE/STANDARD_CHANGE_REQUEST.md
+```
+
+Use this when proposing a change to:
+
+- OPRMT™ definitions
+- Framework component rules
+- Standard language
+- Governance policy
+- Versioning logic
+- PCE alignment
+- DOAS™ scoring alignment
+- Certification alignment
+
+---
+
+## 16. How Do I Submit a Prompt?
+
+Use the prompt submission issue template.
+
+Recommended path:
+
+```text
+.github/ISSUE_TEMPLATE/PROMPT_SUBMISSION.md
+```
+
+Prompt submissions should include:
+
+- Objective
+- Parameters
+- Results
+- Method
+- Tools
+- Use case
+- Input variables
+- Output requirements
+- Constraints
+- Compliance notes
+
+---
+
+## 17. What File Naming Style Should Be Used?
+
+Use clear, readable, hyphenated filenames.
+
+Preferred examples:
+
+```text
+OPRMT-Framework-Standard-v1.0.md
+OPRMT-Objective-Spec-v1.0.md
+PCE-Validation-Taxonomy-v1.0.md
+DOAS-Scoring-Model-v1.0.md
+```
+
+Avoid:
+
+```text
+final.md
+newfile.md
+copy.md
+doc1.md
+updated-final-final.md
+```
+
+---
+
+## 18. What Metadata Should Major Documents Include?
+
+Major documents should include a metadata block or visible header containing:
+
+```text
+Title
+Repository
+Owner
+Document Type
+Version
+Status
+Recommended Path
+Last Updated
+Usage Scope
+```
+
+Formal specification files may use YAML front matter where appropriate.
+
+---
+
+## 19. What Is the Difference Between `/docs`, `/standard`, and `/framework`?
+
+| Folder | Purpose |
+|---|---|
+| `/docs` | General documentation, guides, glossary, FAQ, getting started materials |
+| `/standard` | Official framework standards, controlled definitions, versioned specifications |
+| `/framework` | Component-level documentation for Objective, Parameters, Results, Method, and Tools |
+
+---
+
+## 20. What Is the Difference Between OPRMT™ and PCE?
+
+OPRMT™ is the structured prompt framework.
+
+PCE is the validation and compliance discipline used to evaluate whether prompts and outputs satisfy defined rules, constraints, and standards.
+
+OPRMT™ defines structure. PCE validates adherence to structure and requirements.
+
+---
+
+## 21. What Is the Difference Between PCE and DOAS™?
+
+PCE refers to the compliance engineering discipline.
+
+DOAS™ refers to a scoring or assessment model that may be used within or alongside PCE.
+
+PCE asks whether an output complies. DOAS™ can help score how well it complies.
+
+---
+
+## 22. Can OPRMT™ Guarantee Better AI Outputs?
+
+No repository document should claim guaranteed results, guaranteed profitability, legal compliance, academic recognition, employment outcomes, or universal accuracy.
+
+OPRMT™ is designed to improve structure, clarity, repeatability, and auditability. Performance depends on task quality, model behavior, data quality, user inputs, tool access, and review standards.
+
+---
+
+## 23. What Should I Read First?
+
+Recommended order:
+
+```text
+1. /README.md
+2. /docs/GETTING_STARTED.md
+3. /docs/GLOSSARY.md
+4. /standard/OPRMT-Framework-Standard-v1.0.md
+5. /framework/objective/README.md
+6. /framework/parameters/README.md
+7. /framework/results/README.md
+8. /framework/method/README.md
+9. /framework/tools/README.md
+```
+
+---
+
+## 24. Who Maintains This Repository?
+
+The repository is maintained under the authority of Michael W. Fleming and any approved maintainers or repository specialists.
+
+Repository maintainers are responsible for documentation quality, version control, issue review, pull request review, release preparation, and framework integrity.
+
+---
+
+## 25. Ownership Notice
+
+OPRMT™ and related framework materials are owned by Michael W. Fleming unless otherwise stated in the repository license, notice, or usage policy.
+
+This FAQ supports repository clarity, user onboarding, contribution quality, commercial-use boundaries, and long-term protection of the official OPRMT™ Framework.
+
