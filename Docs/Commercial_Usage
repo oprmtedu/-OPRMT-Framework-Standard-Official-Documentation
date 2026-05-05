@@ -1,0 +1,381 @@
+# Commercial Use Guidance
+
+**Repository:** OPRMT™ Framework Repository  
+**Owner:** Michael W. Fleming  
+**Document Type:** Commercial Use Guidance  
+**Version:** v1.0.0  
+**Status:** Draft for Repository Use  
+**Recommended Path:** `legal/COMMERCIAL_USE_GUIDANCE.md`  
+**Last Updated:** 2026-05-02  
+
+---
+
+## 1. Purpose
+
+This document explains how OPRMT™ repository materials may be used in personal, educational, internal business, and commercial contexts.
+
+The purpose of this guidance is to protect the integrity of the OPRMT™ Framework while allowing legitimate learning, reference, implementation, and approved business use.
+
+This document is guidance only. It does not replace the repository `LICENSE.md`, `NOTICE.md`, `TERMS.md`, or any signed agreement with the owner.
+
+---
+
+## 2. Ownership Notice
+
+OPRMT™, the OPRMT™ Framework, related framework documentation, structured prompt systems, prompt compliance materials, DOAS™ references, certification concepts, and associated repository materials are owned by Michael W. Fleming unless otherwise stated in the repository license, notice, or usage policy.
+
+Use of this repository does not transfer ownership of OPRMT™ intellectual property.
+
+---
+
+## 3. Scope of This Guidance
+
+This document applies to:
+
+- OPRMT™ framework documentation
+- OPRMT™ component specifications
+- Prompt templates
+- Prompt cluster structures
+- Prompt Compliance Engineering materials
+- DOAS™ scoring references
+- Certification-related documents
+- Repository governance files
+- Markdown templates
+- Public-facing explanatory materials
+- Automation scripts included in the repository
+
+This guidance does not apply to private agreements, paid licensing arrangements, white-label contracts, or separately licensed commercial products unless those materials explicitly reference this document.
+
+---
+
+## 4. General Use Categories
+
+| Use Category | Description | Default Status |
+|---|---|---|
+| Personal Use | Learning, private study, experimentation, and non-public reference | Generally allowed under repository terms |
+| Educational Use | Teaching, discussion, classroom reference, or non-commercial training | Allowed with attribution unless restricted |
+| Internal Business Use | Use inside one organization for internal workflow design or prompt structuring | Allowed with attribution unless restricted |
+| Public Reference Use | Mentioning, citing, or linking to OPRMT™ materials | Allowed with attribution |
+| Commercial Use | Selling, packaging, monetizing, embedding, or redistributing OPRMT™ materials | Requires review and may require permission |
+| White-Label Use | Rebranding OPRMT™ materials as another system or product | Not allowed without written permission |
+| Certification Use | Claiming official OPRMT™ certification, accreditation, or authority | Not allowed without explicit approval |
+
+---
+
+## 5. Uses Generally Allowed
+
+The following uses are generally allowed when consistent with the repository license and proper attribution is provided.
+
+### 5.1 Personal Learning
+
+You may use repository materials to study structured prompting, prompt engineering systems, documentation design, and framework architecture.
+
+Examples:
+
+- Reading the OPRMT™ Framework Standard
+- Studying prompt templates
+- Practicing with OPRMT™ prompt structure
+- Testing OPRMT™ concepts in private workspaces
+
+### 5.2 Internal Reference
+
+You may reference OPRMT™ materials internally for learning, planning, or workflow improvement.
+
+Examples:
+
+- Using the OPRMT™ sequence to structure internal prompts
+- Reviewing component definitions with a team
+- Creating internal notes based on public documentation
+- Comparing OPRMT™ with other prompt engineering methods
+
+### 5.3 Non-Commercial Educational Discussion
+
+You may discuss, cite, or teach concepts from the public repository when attribution is included and the use does not imply official endorsement.
+
+Examples:
+
+- Referencing OPRMT™ in a class discussion
+- Linking to the official repository in a resource list
+- Explaining the OPRMT™ structure in a non-commercial workshop
+- Writing commentary that identifies OPRMT™ as owned by Michael W. Fleming
+
+### 5.4 Attribution-Based Public Reference
+
+You may reference the framework publicly if attribution is clear.
+
+Recommended attribution:
+
+```text
+OPRMT™ Framework created by Michael W. Fleming.
+Official materials available through the OPRMT™ repository.
+```
+
+---
+
+## 6. Uses Requiring Permission
+
+The following uses require written permission, a separate license, or formal approval from the owner.
+
+### 6.1 Selling OPRMT™ Materials
+
+You may not sell repository materials, copied templates, framework documents, prompt clusters, or derivative commercial packages based substantially on OPRMT™ materials without approval.
+
+Examples requiring permission:
+
+- Selling OPRMT™ prompt packs
+- Selling OPRMT™ documentation bundles
+- Packaging repository content into a paid course
+- Selling templates copied or lightly modified from the repository
+
+### 6.2 Commercial Redistribution
+
+You may not redistribute OPRMT™ materials as part of a paid product, SaaS tool, membership, downloadable bundle, agency package, or client deliverable without permission.
+
+Examples requiring permission:
+
+- Uploading OPRMT™ files into a paid template library
+- Including OPRMT™ documents in a subscription product
+- Bundling OPRMT™ prompts inside a commercial software tool
+- Distributing modified OPRMT™ templates to paying customers
+
+### 6.3 White-Label or Rebranded Use
+
+You may not remove OPRMT™ branding, rename the framework, or present OPRMT™ materials as your own original system.
+
+Not allowed without written permission:
+
+- Rebranding OPRMT™ as another framework
+- Removing ownership notices
+- Replacing OPRMT™ terminology with a competing brand
+- Claiming authorship of OPRMT™ structure or documentation
+
+### 6.4 Official Certification or Training Use
+
+You may not claim to provide official OPRMT™ certification, official OPRMT™ training, or authorized OPRMT™ accreditation without approval.
+
+Restricted claims include:
+
+- “Official OPRMT™ Certified”
+- “Authorized OPRMT™ Instructor”
+- “OPRMT™ Accredited Program”
+- “Certified by OPRMT™”
+- “Official OPRMT™ Training Partner”
+
+### 6.5 Commercial Client Services Using OPRMT™ Branding
+
+If you use OPRMT™ branding, terminology, templates, or documentation as part of paid client work, permission may be required depending on scope.
+
+Examples requiring review:
+
+- Selling OPRMT™ implementation services
+- Offering OPRMT™ audits as a paid service
+- Delivering OPRMT™ branded prompt systems to clients
+- Using OPRMT™ documents in client-facing proposals
+
+---
+
+## 7. Uses Not Allowed
+
+The following uses are not allowed unless explicitly approved in writing.
+
+- Claiming ownership of OPRMT™ or related systems
+- Removing copyright, trademark, ownership, or attribution notices
+- Misrepresenting OPRMT™ as open public-domain material
+- Selling copied OPRMT™ repository files
+- Creating confusingly similar competing documentation using OPRMT™ branding
+- Claiming official endorsement without approval
+- Claiming legal, professional, academic, or accreditation status not granted by the owner
+- Using OPRMT™ materials in deceptive, harmful, or misleading products
+- Using OPRMT™ materials to train or market a competing certification without permission
+- Republishing the repository as a commercial product
+
+---
+
+## 8. Commercial Use Decision Guide
+
+Use this guide to determine whether permission is likely needed.
+
+| Question | If Yes | Permission Likely Needed |
+|---|---|---|
+| Are you selling access to OPRMT™ materials? | Commercial sale | Yes |
+| Are you including OPRMT™ files in a paid product? | Redistribution | Yes |
+| Are you rebranding OPRMT™ as your own system? | White-label use | Yes |
+| Are you using OPRMT™ branding in client work? | Commercial service | Review required |
+| Are you claiming official certification authority? | Certification claim | Yes |
+| Are you only studying the materials privately? | Personal use | Usually no |
+| Are you citing the repository with attribution? | Public reference | Usually no |
+| Are you using the structure internally without redistribution? | Internal use | Usually no |
+
+---
+
+## 9. Attribution Requirements
+
+When referencing OPRMT™ materials publicly, include attribution.
+
+Recommended short attribution:
+
+```text
+OPRMT™ Framework created by Michael W. Fleming.
+```
+
+Recommended extended attribution:
+
+```text
+This material references the OPRMT™ Framework, created by Michael W. Fleming. OPRMT™ and related framework materials remain the property of their owner unless otherwise stated in the repository license or usage policy.
+```
+
+For web pages, documentation, presentations, articles, or public training references, include a link to the official repository or official OPRMT™ website when available.
+
+---
+
+## 10. Derivative Works
+
+A derivative work is any material substantially based on, adapted from, reorganized from, or modified from OPRMT™ repository content.
+
+Derivative works may include:
+
+- Modified OPRMT™ prompt templates
+- Adapted framework guides
+- Reformatted documentation packs
+- Translated OPRMT™ materials
+- Commercial training materials based on OPRMT™ documents
+- Prompt libraries using OPRMT™ structure and branding
+- Software tools embedding OPRMT™ logic or terminology
+
+Derivative commercial works may require written permission.
+
+Derivative works must not misrepresent ownership, authorship, origin, endorsement, or authorization.
+
+---
+
+## 11. Internal Business Use
+
+Internal business use means using OPRMT™ ideas, structure, or public documentation inside an organization without selling, redistributing, rebranding, or publicly claiming official status.
+
+Internal use may include:
+
+- Structuring internal prompts
+- Creating internal AI workflow checklists
+- Training employees on structured prompt thinking
+- Testing OPRMT™ concepts for operational improvement
+
+Internal business use should preserve attribution when repository materials are copied into internal documents.
+
+Internal business use does not authorize resale, redistribution, white-label use, or certification claims.
+
+---
+
+## 12. Commercial License Requests
+
+For commercial use requests, submit a request through the appropriate repository issue template or official contact channel.
+
+Include the following information:
+
+```text
+Requester name:
+Organization:
+Contact email:
+Intended use:
+Commercial product or service name:
+Materials requested:
+Distribution method:
+Audience:
+Revenue model:
+Branding requirements:
+Requested license scope:
+Requested duration:
+Modification requirements:
+Attribution plan:
+```
+
+The owner may approve, reject, limit, or require a separate agreement for commercial use.
+
+---
+
+## 13. Examples
+
+### Example A: Allowed Personal Use
+
+A user studies the OPRMT™ Framework Standard and uses the sequence privately to improve personal ChatGPT prompts.
+
+Status: Generally allowed.
+
+### Example B: Allowed Public Reference
+
+A blogger writes an article explaining different prompt engineering frameworks and mentions OPRMT™ with attribution.
+
+Status: Generally allowed with attribution.
+
+### Example C: Review Required
+
+A consultant wants to use OPRMT™ terminology in paid client prompt engineering packages.
+
+Status: Review required.
+
+### Example D: Permission Required
+
+A creator wants to sell an OPRMT™ prompt pack based on repository templates.
+
+Status: Permission required.
+
+### Example E: Not Allowed Without Approval
+
+A company copies OPRMT™ files, removes ownership notices, renames the framework, and sells it as its own training system.
+
+Status: Not allowed.
+
+---
+
+## 14. Relationship to Repository License
+
+This guidance does not override the repository license.
+
+If there is a conflict between this guidance and the repository license, the repository license controls unless a signed agreement states otherwise.
+
+Recommended related files:
+
+```text
+/LICENSE.md
+/NOTICE.md
+/legal/USAGE_POLICY.md
+/legal/ATTRIBUTION_POLICY.md
+/legal/COMMERCIAL_USE_POLICY.md
+/legal/COMMERCIAL_USE_GUIDANCE.md
+```
+
+---
+
+## 15. Repository Maintainer Notes
+
+Maintainers should review commercial use questions for:
+
+- Ownership protection
+- Attribution accuracy
+- License consistency
+- Brand confusion risk
+- Certification claim risk
+- Public misrepresentation risk
+- Unauthorized redistribution risk
+- Commercial exploitation risk
+- Compatibility with OPRMT™ governance
+
+Commercial use requests should not be approved casually through issue comments if a formal license or written agreement is required.
+
+---
+
+## 16. Disclaimer
+
+This document is not legal advice.
+
+For legal interpretation, licensing enforcement, trademark protection, contract drafting, or commercial rights management, consult a qualified attorney.
+
+This document exists to clarify repository expectations and reduce misuse of OPRMT™ materials.
+
+---
+
+## 17. Ownership Notice
+
+OPRMT™ and related framework materials are owned by Michael W. Fleming unless otherwise stated in the repository license, notice, or usage policy.
+
+This Commercial Use Guidance document supports responsible use, proper attribution, controlled commercial adoption, repository governance, and long-term protection of the official OPRMT™ Framework.
+
