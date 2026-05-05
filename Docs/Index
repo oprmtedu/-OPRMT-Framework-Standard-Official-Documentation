@@ -1,0 +1,207 @@
+# OPRMT™ Documentation Index
+
+**Repository:** OPRMT™ Framework Repository  
+**Owner:** Michael W. Fleming  
+**Document Type:** Documentation Index  
+**Version:** v1.0.0  
+**Status:** Draft for Repository Use  
+**Recommended Path:** `docs/INDEX.md`  
+**Last Updated:** 2026-05-02  
+
+---
+
+## 1. Purpose
+
+This file serves as the primary documentation index for the OPRMT™ Framework Repository.
+
+It provides a structured map of the repository documentation system, including framework standards, component specifications, prompt assets, governance files, commercial-use guidance, automation workflows, and contributor resources.
+
+Use this index when navigating, auditing, expanding, or maintaining the repository.
+
+---
+
+## 2. Primary Reading Path
+
+For new readers, contributors, or maintainers, use this order:
+
+```text
+1. README.md
+2. docs/OVERVIEW.md
+3. docs/GETTING_STARTED.md
+4. docs/FAQ.md
+5. docs/GLOSSARY.md
+6. standard/OPRMT-Framework-Standard-v1.0.md
+7. docs/IMPLEMENTATION.md
+8. CONTRIBUTING.md
+9. LICENSE.md
+10. NOTICE.md
+```
+
+---
+
+## 3. Core Documentation Files
+
+| File | Purpose |
+|---|---|
+| `README.md` | Main repository introduction and navigation entry point |
+| `docs/INDEX.md` | Central documentation index |
+| `docs/OVERVIEW.md` | High-level overview of OPRMT™, repository purpose, and ecosystem structure |
+| `docs/GETTING_STARTED.md` | Practical onboarding guide for users and contributors |
+| `docs/FAQ.md` | Frequently asked questions |
+| `docs/GLOSSARY.md` | Controlled terminology and definitions |
+| `docs/IMPLEMENTATION.md` | Practical implementation guidance for using OPRMT™ |
+
+---
+
+## 4. Standard and Framework Documentation
+
+| Path | Purpose |
+|---|---|
+| `standard/OPRMT-Framework-Standard-v1.0.md` | Official framework standard |
+| `standard/OPRMT-Core-Definitions.md` | Controlled definitions for core framework terms |
+| `standard/OPRMT-Component-Rules.md` | Rules for Objective, Parameters, Results, Method, and Tools |
+| `standard/OPRMT-Versioning-Standard.md` | Versioning rules for standards and documents |
+| `framework/objective/README.md` | Objective component documentation |
+| `framework/parameters/README.md` | Parameters component documentation |
+| `framework/results/README.md` | Results component documentation |
+| `framework/method/README.md` | Method component documentation |
+| `framework/tools/README.md` | Tools component documentation |
+
+---
+
+## 5. Prompt Asset Documentation
+
+| Path | Purpose |
+|---|---|
+| `prompts/README.md` | Prompt asset documentation entry point |
+| `prompts/templates/` | Reusable structured prompt templates |
+| `prompts/examples/` | Example prompts using the OPRMT™ format |
+| `prompts/validation/` | Prompt validation and review materials |
+| `prompts/prompt-clusters/` | Grouped prompt systems by use case or business function |
+
+---
+
+## 6. PCE Documentation
+
+| Path | Purpose |
+|---|---|
+| `pce/README.md` | Prompt Compliance Engineering entry point |
+| `pce/Prompt-Compliance-Engineering-Overview.md` | Overview of PCE concepts |
+| `pce/PCE-Validation-Taxonomy.md` | PCE validation categories and review structure |
+| `pce/PCE-Certification-Levels.md` | Certification-level reference material, if approved |
+
+---
+
+## 7. DOAS™ Documentation
+
+| Path | Purpose |
+|---|---|
+| `doas/README.md` | DOAS™ documentation entry point |
+| `doas/DOAS-Scoring-Model.md` | Scoring model documentation |
+| `doas/DOAS-Rubric.md` | Rubric reference |
+| `doas/DOAS-Scorecard-Template.md` | Scorecard template |
+
+---
+
+## 8. Certification Documentation
+
+| Path | Purpose |
+|---|---|
+| `certification/README.md` | Certification documentation entry point |
+| `certification/curriculum-map.md` | Curriculum structure and module mapping |
+| `certification/module-index.md` | Module index |
+| `certification/assessment-policy.md` | Assessment and scoring policy |
+| `certification/certificate-usage-disclaimer.md` | Certificate usage limitations and disclaimers |
+
+---
+
+## 9. Governance Documentation
+
+| Path | Purpose |
+|---|---|
+| `governance/README.md` | Governance documentation entry point |
+| `governance/governance-charter.md` | Repository and framework governance charter |
+| `governance/release-policy.md` | Release process and version controls |
+| `governance/contribution-review-policy.md` | Contribution review rules |
+| `governance/ip-protection-policy.md` | Intellectual property protection guidance |
+
+---
+
+## 10. Legal and Usage Documentation
+
+| Path | Purpose |
+|---|---|
+| `LICENSE.md` | Repository license |
+| `NOTICE.md` | Ownership and attribution notice |
+| `legal/COMMERCIAL_USE_GUIDANCE.md` | Commercial-use guidance |
+| `legal/USAGE_POLICY.md` | General usage policy |
+| `legal/ATTRIBUTION_POLICY.md` | Attribution requirements |
+| `legal/COMMERCIAL_USE_POLICY.md` | Commercial use policy, if separately maintained |
+
+---
+
+## 11. GitHub Templates and Workflows
+
+| Path | Purpose |
+|---|---|
+| `.github/ISSUE_TEMPLATE/BUG_REPORT.md` | Bug reporting template |
+| `.github/ISSUE_TEMPLATE/DOCUMENT_REQUEST.md` | Document request template |
+| `.github/ISSUE_TEMPLATE/STANDARD_CHANGE_REQUEST.md` | Controlled standard change request template |
+| `.github/ISSUE_TEMPLATE/PROMPT_SUBMISSION.md` | Prompt submission template |
+| `.github/PULL_REQUEST_TEMPLATE.md` | Pull request review template |
+| `.github/workflows/link-check.yml` | Link checking workflow |
+| `.github/workflows/markdown-lint.yml` | Markdown linting workflow |
+| `.github/workflows/release.yml` | Release packaging workflow |
+
+---
+
+## 12. Automation Documentation
+
+| Path | Purpose |
+|---|---|
+| `automation/README.md` | Automation entry point |
+| `automation/apps-script/` | Google Apps Script automation files |
+| `automation/github-actions/` | GitHub Actions support files |
+| `automation/repository-build-scripts/` | Repository file tree and setup scripts |
+
+---
+
+## 13. Recommended Maintenance Workflow
+
+Use this process when adding or updating repository documentation:
+
+```text
+1. Identify the document category.
+2. Confirm the correct folder path.
+3. Check existing files for overlap.
+4. Use repository naming conventions.
+5. Add metadata or document header.
+6. Write the document purpose.
+7. Add implementation notes where applicable.
+8. Add ownership notice.
+9. Update this index if the file is part of the official documentation set.
+10. Submit changes through pull request review.
+```
+
+---
+
+## 14. Index Update Rule
+
+Update this file when:
+
+- A new major documentation file is added.
+- A file path changes.
+- A standard document is renamed.
+- A new repository area is created.
+- A new GitHub template or workflow is added.
+- A document becomes deprecated.
+- A release changes the official documentation structure.
+
+---
+
+## 15. Ownership Notice
+
+OPRMT™ and related framework materials are owned by Michael W. Fleming unless otherwise stated in the repository license, notice, or usage policy.
+
+This documentation index supports repository navigation, documentation governance, contributor onboarding, and long-term protection of the official OPRMT™ Framework.
+
